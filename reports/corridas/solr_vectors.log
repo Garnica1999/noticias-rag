@@ -1,0 +1,13 @@
+50000 vectores, 77.5 s, 645 docs/s
+100000 vectores, 154.8 s, 646 docs/s
+150000 vectores, 231.3 s, 648 docs/s
+200000 vectores, 308.5 s, 648 docs/s
+250000 vectores, 390.9 s, 640 docs/s
+300000 vectores, 491.4 s, 611 docs/s
+350000 vectores, 580.5 s, 603 docs/s
+400000 vectores, 657.9 s, 608 docs/s
+450000 vectores, 749.1 s, 601 docs/s
+500000 vectores, 855.5 s, 584 docs/s
+550000 vectores, 989.9 s, 556 docs/s
+600000 vectores, 1118.4 s, 536 docs/s
+listo: 618286 vectores en 1168.3 s
