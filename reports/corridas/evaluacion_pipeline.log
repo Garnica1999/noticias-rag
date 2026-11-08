@@ -1,0 +1,412 @@
++ docker compose exec -T api python -m src.scripts.eval_configuracion_final --model gemma4:e4b --k-answer 5 --raw reports/corridas/metricas_final_sin.jsonl --summary reports/tablas/metricas_final_sin.csv --by-lang reports/tablas/metricas_final_sin_por_idioma.csv --figures-dir reports/figuras
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 46637.84it/s]
+/work/src/rag/embeddings.py:114: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.dims = int(self.model.get_sentence_embedding_dimension())
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:  25%|██▍       | 97/393 [00:00<00:00, 939.81it/s]Loading weights:  54%|█████▎    | 211/393 [00:00<00:00, 1045.93it/s]Loading weights:  81%|████████▏ | 320/393 [00:00<00:00, 1057.57it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 1078.17it/s]
+1/43 g-001 recall=1.00 abst=False match=True
+2/43 g-002 recall=1.00 abst=False match=True
+3/43 g-003 recall=1.00 abst=False match=False
+4/43 g-007 recall=1.00 abst=False match=False
+5/43 g-008 recall=0.50 abst=False match=False
+6/43 g-009 recall=1.00 abst=False match=False
+7/43 g-010 recall=1.00 abst=False match=True
+8/43 g-011 recall=1.00 abst=False match=False
+9/43 g-012 recall=1.00 abst=False match=False
+10/43 g-014 recall=1.00 abst=False match=True
+11/43 g-016 recall=1.00 abst=False match=True
+12/43 g-017 recall=1.00 abst=False match=True
+13/43 g-018 recall=1.00 abst=False match=False
+14/43 g-019 recall=1.00 abst=False match=True
+15/43 g-020 recall=1.00 abst=False match=True
+16/43 g-021 recall=1.00 abst=False match=True
+17/43 g-022 recall=1.00 abst=False match=False
+18/43 g-023 recall=1.00 abst=False match=True
+19/43 g-024 recall=1.00 abst=False match=True
+20/43 g-025 recall=1.00 abst=False match=False
+21/43 g-027 recall=1.00 abst=False match=True
+22/43 g-028 recall=1.00 abst=False match=True
+23/43 g-031 recall=0.00 abst=True match=False
+24/43 g-032 recall=0.67 abst=False match=True
+25/43 g-033 recall=1.00 abst=False match=False
+26/43 g-034 recall=1.00 abst=False match=True
+27/43 g-036 recall=0.50 abst=False match=True
+28/43 g-037 recall=1.00 abst=False match=True
+29/43 g-038 recall=1.00 abst=False match=True
+30/43 g-039 recall=1.00 abst=False match=True
+31/43 g-040 recall=1.00 abst=False match=True
+32/43 g-041 recall=1.00 abst=False match=True
+33/43 g-042 recall=1.00 abst=False match=True
+34/43 g-043 recall=1.00 abst=False match=True
+35/43 g-044 recall=1.00 abst=False match=True
+36/43 g-045 recall=1.00 abst=False match=False
+37/43 g-046 recall=0.00 abst=False match=False
+38/43 g-047 recall=1.00 abst=False match=True
+39/43 g-048 recall=0.00 abst=True match=None
+40/43 g-049 recall=0.00 abst=True match=None
+41/43 g-050 recall=0.00 abst=True match=None
+42/43 g-051 recall=0.00 abst=True match=None
+43/43 g-052 recall=0.00 abst=True match=None
+
+Resumen
+  n_total: 43
+  n_direct: 38
+  n_negative: 5
+  recall_at_10: 0.9122807017543859
+  ndcg_at_10: 0.818369472831941
+  p_at_1: 0.7368421052631579
+  p_at_5: 0.9473684210526315
+  mrr: 0.8223684210526315
+  map: 0.7673245614035087
+  span_hit: 0.8157894736842105
+  delivered_direct: 37
+  abstained_direct: 1
+  abstained_negative: 5
+  strict_match_direct: 25
+  strict_match_rate: 0.6756756756756757
+  token_f1_direct: 0.2728438214072041
+  citation_rate: 1.0
+  context_tokens_mean: 1361.3023255813953
+  retrieval_ms_mean: 1104.3383720930235
+  total_ms_mean: 6717.488139534884
+  total_ms_median: 6619.33
+  total_ms_p95: 9330.993
+
+Por idioma
+lang  n  recall  ndcg  p_at_1  p_at_5  span_hit
+  en  9   0.889 0.678   0.444   0.889     0.778
+  es 29   0.920 0.862   0.828   0.966     0.828
+
+Motivos de abstención
+abstain_reason
+modelo    6
++ docker compose exec -T api python -m src.scripts.eval_configuracion_final --model gemma4:e4b --k-answer 5 --think --raw reports/corridas/metricas_final_con.jsonl --summary reports/tablas/metricas_final_con.csv --by-lang reports/tablas/metricas_final_con_por_idioma.csv --figures-dir /tmp/opencode/fig_eval_con
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 47136.49it/s]
+/work/src/rag/embeddings.py:114: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.dims = int(self.model.get_sentence_embedding_dimension())
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 11522.97it/s]
+1/43 g-001 recall=1.00 abst=False match=True
+2/43 g-002 recall=1.00 abst=False match=True
+3/43 g-003 recall=1.00 abst=False match=True
+4/43 g-007 recall=1.00 abst=False match=False
+5/43 g-008 recall=0.50 abst=False match=False
+6/43 g-009 recall=1.00 abst=False match=False
+7/43 g-010 recall=1.00 abst=False match=True
+8/43 g-011 recall=1.00 abst=False match=False
+9/43 g-012 recall=1.00 abst=False match=False
+10/43 g-014 recall=1.00 abst=False match=True
+11/43 g-016 recall=1.00 abst=False match=True
+12/43 g-017 recall=1.00 abst=True match=False
+13/43 g-018 recall=1.00 abst=False match=False
+14/43 g-019 recall=1.00 abst=False match=True
+15/43 g-020 recall=1.00 abst=False match=True
+16/43 g-021 recall=1.00 abst=False match=True
+17/43 g-022 recall=1.00 abst=False match=False
+18/43 g-023 recall=1.00 abst=False match=True
+19/43 g-024 recall=1.00 abst=False match=True
+20/43 g-025 recall=1.00 abst=False match=False
+21/43 g-027 recall=1.00 abst=False match=True
+22/43 g-028 recall=1.00 abst=False match=True
+23/43 g-031 recall=0.00 abst=False match=False
+24/43 g-032 recall=0.67 abst=False match=True
+25/43 g-033 recall=1.00 abst=False match=False
+26/43 g-034 recall=1.00 abst=False match=True
+27/43 g-036 recall=0.50 abst=False match=True
+28/43 g-037 recall=1.00 abst=False match=True
+29/43 g-038 recall=1.00 abst=False match=True
+30/43 g-039 recall=1.00 abst=False match=True
+31/43 g-040 recall=1.00 abst=False match=True
+32/43 g-041 recall=1.00 abst=False match=True
+33/43 g-042 recall=1.00 abst=False match=True
+34/43 g-043 recall=1.00 abst=False match=True
+35/43 g-044 recall=1.00 abst=False match=True
+36/43 g-045 recall=1.00 abst=False match=False
+37/43 g-046 recall=0.00 abst=False match=False
+38/43 g-047 recall=1.00 abst=False match=True
+39/43 g-048 recall=0.00 abst=True match=None
+40/43 g-049 recall=0.00 abst=True match=None
+41/43 g-050 recall=0.00 abst=True match=None
+42/43 g-051 recall=0.00 abst=True match=None
+43/43 g-052 recall=0.00 abst=True match=None
+
+Resumen
+  n_total: 43
+  n_direct: 38
+  n_negative: 5
+  recall_at_10: 0.9122807017543859
+  ndcg_at_10: 0.818369472831941
+  p_at_1: 0.7368421052631579
+  p_at_5: 0.9473684210526315
+  mrr: 0.8223684210526315
+  map: 0.7673245614035087
+  span_hit: 0.8157894736842105
+  delivered_direct: 37
+  abstained_direct: 1
+  abstained_negative: 5
+  strict_match_direct: 25
+  strict_match_rate: 0.6756756756756757
+  token_f1_direct: 0.27161402634756865
+  citation_rate: 1.0
+  context_tokens_mean: 1361.3023255813953
+  retrieval_ms_mean: 1109.066046511628
+  total_ms_mean: 6400.003255813954
+  total_ms_median: 6355.46
+  total_ms_p95: 8683.774
+
+Por idioma
+lang  n  recall  ndcg  p_at_1  p_at_5  span_hit
+  en  9   0.889 0.678   0.444   0.889     0.778
+  es 29   0.920 0.862   0.828   0.966     0.828
+
+Motivos de abstención
+abstain_reason
+modelo     5
+juez_no    1
++ /home/carlos/venv/bin/python src/scripts/eval_chat_cases.py
+                                                                query    tipo  intent          guardrail  abstained  citas  correcto    ms
+                                                                 Hola  charla  charla             charla      False      0      True  7713
+                                                          Buenos días  charla  charla             charla      False      0      True  1291
+                                                              Gracias  charla  charla             charla      False      0      True   970
+                                                         ¿Quién eres?  charla  charla             charla      False      0      True  1816
+  ¿Cuántos municipios han reportado la presencia del Retamo Espinoso? dominio dominio       tool_calling      False      2      True 11024
+                                ¿Cuándo se celebra el Global Big Day? dominio dominio fallback_sin_tools      False      4      True  7849
+¿Entre qué años tuvo su primera circulación la moneda de 1.000 pesos? dominio dominio       tool_calling      False      4      True  6101
+                       ¿Dónde se encuentra la Marianne North Gallery? dominio dominio fallback_sin_tools      False      2      True  6298
+                                      ¿Cuál es la capital de Francia?   fuera dominio fallback_sin_tools      False      2     False  5350
+                                      ¿Cuál es la población de Tokio?   fuera dominio fallback_sin_tools       True      0      True  5805
+                                ¿Quién escribió Cien años de soledad?   fuera dominio fallback_sin_tools      False      3     False  5934
+                            ¿Quién ganó el mundial de fútbol de 2022?   fuera dominio fallback_sin_tools      False      1     False  5962
+
+Aciertos: 9 de 12
+Tool calling: ['buscar_corpus']
++ /home/carlos/venv/bin/python src/scripts/eval_chat_cases.py
+                                                                query    tipo  intent          guardrail  abstained  citas  correcto   ms
+                                                                 Hola  charla  charla             charla      False      0      True 5591
+                                                          Buenos días  charla  charla             charla      False      0      True 1279
+                                                              Gracias  charla  charla             charla      False      0      True  987
+                                                         ¿Quién eres?  charla  charla             charla      False      0      True 1800
+  ¿Cuántos municipios han reportado la presencia del Retamo Espinoso? dominio dominio fallback_sin_tools      False      2      True 9468
+                                ¿Cuándo se celebra el Global Big Day? dominio dominio fallback_sin_tools      False      4      True 5354
+¿Entre qué años tuvo su primera circulación la moneda de 1.000 pesos? dominio dominio fallback_sin_tools      False      4      True 4465
+                       ¿Dónde se encuentra la Marianne North Gallery? dominio dominio fallback_sin_tools      False      2      True 3769
+                                      ¿Cuál es la capital de Francia?   fuera dominio fallback_sin_tools       True      0      True   41
+                                      ¿Cuál es la población de Tokio?   fuera dominio fallback_sin_tools       True      0      True   42
+                                ¿Quién escribió Cien años de soledad?   fuera dominio fallback_sin_tools       True      0      True   56
+                            ¿Quién ganó el mundial de fútbol de 2022?   fuera dominio fallback_sin_tools       True      0      True   43
+
+Aciertos: 12 de 12
+Tool calling: ['buscar_corpus']
++ /home/carlos/venv/bin/python src/scripts/eval_chat_cases.py
+                                                                query    tipo  intent          guardrail  abstained  citas  correcto   ms
+                                                                 Hola  charla  charla             charla      False      0      True 4813
+                                                          Buenos días  charla  charla             charla      False      0      True 1231
+                                                              Gracias  charla  charla             charla      False      0      True 1006
+                                                         ¿Quién eres?  charla  charla             charla      False      0      True 1851
+  ¿Cuántos municipios han reportado la presencia del Retamo Espinoso? dominio dominio       tool_calling      False      2      True 8911
+                                ¿Cuándo se celebra el Global Big Day? dominio dominio fallback_sin_tools      False      4      True 7814
+¿Entre qué años tuvo su primera circulación la moneda de 1.000 pesos? dominio dominio       tool_calling      False      4      True 6021
+                       ¿Dónde se encuentra la Marianne North Gallery? dominio dominio fallback_sin_tools      False      2      True 6380
+                                      ¿Cuál es la capital de Francia?   fuera dominio fallback_sin_tools      False      2     False 5669
+                                      ¿Cuál es la población de Tokio?   fuera dominio fallback_sin_tools       True      0      True 5764
+                                ¿Quién escribió Cien años de soledad?   fuera dominio fallback_sin_tools      False      3     False 5986
+                            ¿Quién ganó el mundial de fútbol de 2022?   fuera dominio fallback_sin_tools      False      1     False 5897
+
+Aciertos: 9 de 12
+Tool calling: ['buscar_corpus']
++ /home/carlos/venv/bin/python src/scripts/eval_chat_cases.py
+                                                                query    tipo  intent          guardrail  abstained  citas  correcto   ms
+                                                                 Hola  charla  charla             charla      False      0      True 9782
+                                                          Buenos días  charla  charla             charla      False      0      True 1269
+                                                              Gracias  charla  charla             charla      False      0      True  988
+                                                         ¿Quién eres?  charla  charla             charla      False      0      True 1804
+  ¿Cuántos municipios han reportado la presencia del Retamo Espinoso? dominio dominio fallback_sin_tools      False      2      True 8951
+                                ¿Cuándo se celebra el Global Big Day? dominio dominio fallback_sin_tools      False      4      True 5106
+¿Entre qué años tuvo su primera circulación la moneda de 1.000 pesos? dominio dominio fallback_sin_tools      False      4      True 4567
+                       ¿Dónde se encuentra la Marianne North Gallery? dominio dominio fallback_sin_tools      False      2      True 3736
+                                      ¿Cuál es la capital de Francia?   fuera dominio fallback_sin_tools       True      0      True   40
+                                      ¿Cuál es la población de Tokio?   fuera dominio fallback_sin_tools       True      0      True   43
+                                ¿Quién escribió Cien años de soledad?   fuera dominio fallback_sin_tools       True      0      True   40
+                            ¿Quién ganó el mundial de fútbol de 2022?   fuera dominio fallback_sin_tools       True      0      True   41
+
+Aciertos: 12 de 12
+Tool calling: ['buscar_corpus']
++ /home/carlos/venv/bin/python src/scripts/export_ragas_dataset.py
+1/43 g-001 abst=False ctx=5
+2/43 g-002 abst=False ctx=5
+3/43 g-003 abst=False ctx=5
+4/43 g-007 abst=False ctx=5
+5/43 g-008 abst=False ctx=5
+6/43 g-009 abst=False ctx=5
+7/43 g-010 abst=False ctx=5
+8/43 g-011 abst=False ctx=5
+9/43 g-012 abst=False ctx=5
+10/43 g-014 abst=False ctx=5
+11/43 g-016 abst=False ctx=5
+12/43 g-017 abst=False ctx=5
+13/43 g-018 abst=False ctx=5
+14/43 g-019 abst=False ctx=5
+15/43 g-020 abst=False ctx=5
+16/43 g-021 abst=False ctx=5
+17/43 g-022 abst=False ctx=5
+18/43 g-023 abst=False ctx=5
+19/43 g-024 abst=False ctx=5
+20/43 g-025 abst=False ctx=2
+21/43 g-027 abst=False ctx=5
+22/43 g-028 abst=False ctx=5
+23/43 g-031 abst=True ctx=5
+24/43 g-032 abst=False ctx=3
+25/43 g-033 abst=False ctx=5
+26/43 g-034 abst=False ctx=5
+27/43 g-036 abst=False ctx=5
+28/43 g-037 abst=False ctx=5
+29/43 g-038 abst=False ctx=5
+30/43 g-039 abst=False ctx=5
+31/43 g-040 abst=False ctx=5
+32/43 g-041 abst=False ctx=5
+33/43 g-042 abst=False ctx=5
+34/43 g-043 abst=False ctx=5
+35/43 g-044 abst=False ctx=5
+36/43 g-045 abst=False ctx=5
+37/43 g-046 abst=False ctx=5
+38/43 g-047 abst=False ctx=5
+39/43 g-048 abst=True ctx=5
+40/43 g-049 abst=True ctx=5
+41/43 g-050 abst=True ctx=3
+42/43 g-051 abst=True ctx=5
+43/43 g-052 abst=True ctx=5
+directas 38 -> reports/ragas/dataset.jsonl
+sin respuesta 5 -> reports/ragas/negatives.jsonl; se abstienen 5/5
++ docker compose --profile eval run --rm -T -e RAGAS_JUDGE=gemma4:e4b -e RAGAS_EMBEDDINGS_PROVIDER=hf -e RAGAS_EMBEDDINGS=BAAI/bge-m3 -e RAGAS_LIMIT=0 -e RAGAS_OUT=reports/tablas/ragas_gemma4-e4b_bge-m3.csv eval
+ Container taller-rag-eval-run-9e7bf8b81463 Creating 
+ Container taller-rag-eval-run-9e7bf8b81463 Created 
+/eval/src/scripts/eval_ragas.py:15: DeprecationWarning: Importing answer_correctness from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import answer_correctness
+  from ragas.metrics import (
+/eval/src/scripts/eval_ragas.py:15: DeprecationWarning: Importing answer_relevancy from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import answer_relevancy
+  from ragas.metrics import (
+/eval/src/scripts/eval_ragas.py:15: DeprecationWarning: Importing context_precision from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_precision
+  from ragas.metrics import (
+/eval/src/scripts/eval_ragas.py:15: DeprecationWarning: Importing context_recall from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_recall
+  from ragas.metrics import (
+/eval/src/scripts/eval_ragas.py:15: DeprecationWarning: Importing faithfulness from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import faithfulness
+  from ragas.metrics import (
+evaluando 38 preguntas con juez gemma4:e4b y embeddings BAAI/bge-m3 (hf)
+/eval/src/scripts/eval_ragas.py:47: DeprecationWarning: LangchainLLMWrapper is deprecated and will be removed in a future version. Use llm_factory instead: from openai import OpenAI; from ragas.llms import llm_factory; llm = llm_factory('gpt-4o-mini', client=OpenAI(api_key='...'))
+  llm = LangchainLLMWrapper(
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 44522.14it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/eval/src/scripts/eval_ragas.py:56: DeprecationWarning: LangchainEmbeddingsWrapper is deprecated and will be removed in a future version. Use the modern embedding providers instead: embedding_factory('openai', model='text-embedding-3-small', client=openai_client) or from ragas.embeddings import OpenAIEmbeddings, GoogleEmbeddings, HuggingFaceEmbeddings
+  embeddings = LangchainEmbeddingsWrapper(
+Evaluating:   0%|          | 0/190 [00:00<?, ?it/s]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:   1%|          | 1/190 [00:23<1:15:27, 23.96s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:   1%|          | 2/190 [00:35<51:19, 16.38s/it]  LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:   2%|▏         | 3/190 [00:37<31:16, 10.04s/it]Evaluating:   2%|▏         | 4/190 [01:01<48:08, 15.53s/it]Evaluating:   3%|▎         | 5/190 [01:03<32:45, 10.63s/it]Evaluating:   3%|▎         | 6/190 [01:06<24:45,  8.07s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:   4%|▎         | 7/190 [01:12<22:18,  7.31s/it]Evaluating:   4%|▍         | 8/190 [01:13<16:25,  5.41s/it]Evaluating:   5%|▍         | 9/190 [01:20<18:10,  6.02s/it]Evaluating:   5%|▌         | 10/190 [01:23<14:33,  4.85s/it]Evaluating:   6%|▌         | 11/190 [01:26<13:25,  4.50s/it]Evaluating:   6%|▋         | 12/190 [01:33<15:20,  5.17s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:   7%|▋         | 13/190 [01:56<30:53, 10.47s/it]Evaluating:   7%|▋         | 14/190 [02:00<24:52,  8.48s/it]Evaluating:   8%|▊         | 15/190 [02:03<20:17,  6.95s/it]Evaluating:   8%|▊         | 16/190 [02:11<21:26,  7.39s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:   9%|▉         | 17/190 [02:28<28:51, 10.01s/it]Evaluating:   9%|▉         | 18/190 [02:31<23:20,  8.14s/it]Evaluating:  10%|█         | 19/190 [02:54<35:12, 12.35s/it]Evaluating:  11%|█         | 20/190 [02:58<28:35, 10.09s/it]Exception raised in Job[2]: TimeoutError()
+Evaluating:  11%|█         | 21/190 [03:00<20:51,  7.40s/it]Exception raised in Job[7]: TimeoutError()
+Exception raised in Job[12]: TimeoutError()
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  13%|█▎        | 24/190 [03:14<16:30,  5.97s/it]Evaluating:  13%|█▎        | 25/190 [03:23<18:19,  6.66s/it]Evaluating:  14%|█▎        | 26/190 [03:30<18:17,  6.69s/it]Exception raised in Job[17]: TimeoutError()
+Evaluating:  14%|█▍        | 27/190 [03:35<16:39,  6.13s/it]Evaluating:  15%|█▍        | 28/190 [03:41<16:53,  6.25s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  15%|█▌        | 29/190 [03:53<20:51,  7.77s/it]Evaluating:  16%|█▌        | 30/190 [03:58<18:21,  6.88s/it]Evaluating:  16%|█▋        | 31/190 [04:08<20:52,  7.88s/it]Exception raised in Job[22]: TimeoutError()
+Evaluating:  17%|█▋        | 32/190 [04:12<17:39,  6.71s/it]Exception raised in Job[24]: TimeoutError()
+Evaluating:  17%|█▋        | 33/190 [04:20<19:05,  7.30s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  18%|█▊        | 34/190 [04:31<21:25,  8.24s/it]Exception raised in Job[27]: TimeoutError()
+Evaluating:  18%|█▊        | 35/190 [04:33<16:36,  6.43s/it]Evaluating:  19%|█▉        | 36/190 [04:37<14:20,  5.59s/it]Evaluating:  19%|█▉        | 37/190 [04:45<16:16,  6.38s/it]Exception raised in Job[29]: TimeoutError()
+Evaluating:  20%|██        | 38/190 [05:00<22:27,  8.87s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  21%|██        | 39/190 [05:03<18:15,  7.25s/it]Evaluating:  21%|██        | 40/190 [05:08<16:02,  6.42s/it]Evaluating:  22%|██▏       | 41/190 [05:14<16:02,  6.46s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  22%|██▏       | 42/190 [05:28<21:09,  8.58s/it]Exception raised in Job[32]: TimeoutError()
+Evaluating:  23%|██▎       | 44/190 [05:34<14:51,  6.11s/it]Evaluating:  24%|██▎       | 45/190 [05:45<17:39,  7.31s/it]Evaluating:  24%|██▍       | 46/190 [05:48<14:32,  6.06s/it]Exception raised in Job[37]: TimeoutError()
+Evaluating:  25%|██▍       | 47/190 [06:00<18:15,  7.66s/it]Evaluating:  25%|██▌       | 48/190 [06:00<13:38,  5.76s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  26%|██▌       | 49/190 [06:05<12:45,  5.43s/it]Evaluating:  26%|██▋       | 50/190 [06:07<10:28,  4.49s/it]Evaluating:  27%|██▋       | 51/190 [06:16<13:10,  5.69s/it]Evaluating:  27%|██▋       | 52/190 [06:34<21:53,  9.51s/it]Exception raised in Job[42]: TimeoutError()
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  28%|██▊       | 54/190 [06:42<15:23,  6.79s/it]Evaluating:  29%|██▉       | 55/190 [06:51<16:56,  7.53s/it]Evaluating:  29%|██▉       | 56/190 [06:56<15:15,  6.83s/it]Evaluating:  30%|███       | 57/190 [07:05<16:30,  7.45s/it]Exception raised in Job[47]: TimeoutError()
+Evaluating:  31%|███       | 58/190 [07:12<15:45,  7.16s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  31%|███       | 59/190 [07:15<13:23,  6.13s/it]Evaluating:  32%|███▏      | 60/190 [07:23<14:03,  6.49s/it]Evaluating:  32%|███▏      | 61/190 [07:28<13:18,  6.19s/it]Evaluating:  33%|███▎      | 62/190 [07:38<15:36,  7.31s/it]Exception raised in Job[52]: TimeoutError()
+Evaluating:  33%|███▎      | 63/190 [07:45<15:10,  7.17s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  34%|███▎      | 64/190 [07:51<14:26,  6.88s/it]Evaluating:  34%|███▍      | 65/190 [07:59<14:42,  7.06s/it]Evaluating:  35%|███▍      | 66/190 [08:04<13:24,  6.49s/it]Evaluating:  35%|███▌      | 67/190 [08:15<15:55,  7.77s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  36%|███▌      | 68/190 [08:23<16:15,  7.99s/it]Exception raised in Job[57]: TimeoutError()
+Evaluating:  36%|███▋      | 69/190 [08:28<14:04,  6.98s/it]Evaluating:  37%|███▋      | 70/190 [08:32<12:03,  6.03s/it]Evaluating:  37%|███▋      | 71/190 [08:36<11:01,  5.56s/it]Evaluating:  38%|███▊      | 72/190 [08:48<14:47,  7.52s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  38%|███▊      | 73/190 [08:55<14:22,  7.38s/it]Exception raised in Job[62]: TimeoutError()
+Evaluating:  39%|███▉      | 74/190 [09:00<12:34,  6.50s/it]Evaluating:  39%|███▉      | 75/190 [09:06<12:39,  6.60s/it]Evaluating:  40%|████      | 76/190 [09:13<12:28,  6.57s/it]Evaluating:  41%|████      | 77/190 [09:15<09:40,  5.14s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  41%|████      | 78/190 [09:30<15:28,  8.29s/it]Exception raised in Job[67]: TimeoutError()
+Evaluating:  42%|████▏     | 79/190 [09:34<13:02,  7.05s/it]Evaluating:  42%|████▏     | 80/190 [09:40<12:09,  6.63s/it]Evaluating:  43%|████▎     | 81/190 [09:42<09:39,  5.32s/it]Evaluating:  43%|████▎     | 82/190 [09:49<10:14,  5.69s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  44%|████▎     | 83/190 [10:06<16:08,  9.05s/it]Exception raised in Job[72]: TimeoutError()
+Evaluating:  45%|████▍     | 85/190 [10:20<14:05,  8.05s/it]Evaluating:  45%|████▌     | 86/190 [10:25<13:00,  7.51s/it]Evaluating:  46%|████▌     | 87/190 [10:29<11:16,  6.57s/it]Exception raised in Job[77]: TimeoutError()
+Evaluating:  46%|████▋     | 88/190 [10:38<12:11,  7.17s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  47%|████▋     | 89/190 [10:49<13:42,  8.15s/it]Evaluating:  47%|████▋     | 90/190 [11:03<16:18,  9.79s/it]Evaluating:  48%|████▊     | 91/190 [11:13<16:32, 10.02s/it]Exception raised in Job[82]: TimeoutError()
+Evaluating:  48%|████▊     | 92/190 [11:15<12:10,  7.45s/it]Evaluating:  49%|████▉     | 93/190 [11:22<12:15,  7.58s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  49%|████▉     | 94/190 [11:27<10:43,  6.71s/it]Evaluating:  50%|█████     | 95/190 [11:32<09:59,  6.31s/it]Evaluating:  51%|█████     | 96/190 [11:41<10:49,  6.91s/it]Evaluating:  51%|█████     | 97/190 [11:47<10:18,  6.65s/it]Exception raised in Job[87]: TimeoutError()
+Evaluating:  52%|█████▏    | 98/190 [11:48<07:43,  5.03s/it]Evaluating:  52%|█████▏    | 99/190 [11:54<08:14,  5.44s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  53%|█████▎    | 100/190 [12:05<10:19,  6.88s/it]Evaluating:  53%|█████▎    | 101/190 [12:10<09:29,  6.40s/it]Evaluating:  54%|█████▎    | 102/190 [12:14<08:21,  5.70s/it]Exception raised in Job[92]: TimeoutError()
+Evaluating:  54%|█████▍    | 103/190 [12:15<06:04,  4.19s/it]Evaluating:  55%|█████▍    | 104/190 [12:34<12:33,  8.76s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  55%|█████▌    | 105/190 [12:36<09:33,  6.75s/it]Evaluating:  56%|█████▌    | 106/190 [12:41<08:45,  6.25s/it]Evaluating:  56%|█████▋    | 107/190 [12:47<08:20,  6.03s/it]Evaluating:  57%|█████▋    | 108/190 [12:55<09:11,  6.72s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  57%|█████▋    | 109/190 [13:06<10:33,  7.82s/it]Evaluating:  58%|█████▊    | 110/190 [13:08<08:26,  6.33s/it]Evaluating:  58%|█████▊    | 111/190 [13:18<09:40,  7.35s/it]Exception raised in Job[102]: TimeoutError()
+Evaluating:  59%|█████▉    | 112/190 [13:29<11:05,  8.54s/it]Evaluating:  59%|█████▉    | 113/190 [13:35<09:51,  7.68s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  60%|██████    | 114/190 [13:40<08:31,  6.72s/it]Evaluating:  61%|██████    | 115/190 [13:47<08:46,  7.02s/it]Evaluating:  61%|██████    | 116/190 [13:50<07:11,  5.84s/it]Evaluating:  62%|██████▏   | 117/190 [14:12<12:52, 10.58s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  62%|██████▏   | 118/190 [14:15<09:57,  8.30s/it]Exception raised in Job[107]: TimeoutError()
+Evaluating:  63%|██████▎   | 120/190 [14:24<07:35,  6.51s/it]Evaluating:  64%|██████▎   | 121/190 [14:28<06:45,  5.88s/it]Evaluating:  64%|██████▍   | 122/190 [14:41<08:57,  7.90s/it]Exception raised in Job[112]: TimeoutError()
+Evaluating:  65%|██████▍   | 123/190 [14:47<08:08,  7.28s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  65%|██████▌   | 124/190 [14:50<06:42,  6.09s/it]Evaluating:  66%|██████▌   | 125/190 [14:56<06:29,  5.99s/it]Evaluating:  66%|██████▋   | 126/190 [15:01<06:10,  5.79s/it]Evaluating:  67%|██████▋   | 127/190 [15:10<07:09,  6.82s/it]Evaluating:  67%|██████▋   | 128/190 [15:17<07:02,  6.81s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  68%|██████▊   | 129/190 [15:24<06:49,  6.72s/it]Evaluating:  68%|██████▊   | 130/190 [15:33<07:35,  7.60s/it]Evaluating:  69%|██████▉   | 131/190 [15:36<05:52,  5.97s/it]Exception raised in Job[122]: TimeoutError()
+Evaluating:  69%|██████▉   | 132/190 [15:47<07:18,  7.56s/it]Evaluating:  70%|███████   | 133/190 [15:51<06:21,  6.69s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  71%|███████   | 134/190 [15:59<06:23,  6.84s/it]Evaluating:  71%|███████   | 135/190 [16:06<06:22,  6.96s/it]Evaluating:  72%|███████▏  | 136/190 [16:08<05:01,  5.58s/it]Evaluating:  72%|███████▏  | 137/190 [16:25<07:50,  8.89s/it]Exception raised in Job[127]: TimeoutError()
+Evaluating:  73%|███████▎  | 138/190 [16:29<06:34,  7.59s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  73%|███████▎  | 139/190 [16:36<06:08,  7.22s/it]Evaluating:  74%|███████▎  | 140/190 [16:40<05:17,  6.35s/it]Evaluating:  74%|███████▍  | 141/190 [16:44<04:32,  5.55s/it]Evaluating:  75%|███████▍  | 142/190 [16:57<06:11,  7.73s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  75%|███████▌  | 143/190 [17:05<06:10,  7.88s/it]Exception raised in Job[132]: TimeoutError()
+Evaluating:  76%|███████▌  | 144/190 [17:12<05:59,  7.81s/it]Evaluating:  76%|███████▋  | 145/190 [17:14<04:32,  6.05s/it]Evaluating:  77%|███████▋  | 146/190 [17:17<03:40,  5.01s/it]Evaluating:  77%|███████▋  | 147/190 [17:24<04:04,  5.68s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  78%|███████▊  | 148/190 [17:31<04:13,  6.05s/it]Evaluating:  78%|███████▊  | 149/190 [17:41<04:49,  7.07s/it]Exception raised in Job[137]: TimeoutError()
+Evaluating:  79%|███████▉  | 150/190 [17:41<03:27,  5.19s/it]Evaluating:  79%|███████▉  | 151/190 [17:43<02:39,  4.09s/it]Evaluating:  80%|████████  | 152/190 [17:50<03:07,  4.93s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  81%|████████  | 153/190 [17:59<03:49,  6.20s/it]Evaluating:  81%|████████  | 154/190 [18:07<04:03,  6.78s/it]Evaluating:  82%|████████▏ | 155/190 [18:09<03:09,  5.40s/it]Exception raised in Job[142]: TimeoutError()
+Evaluating:  82%|████████▏ | 156/190 [18:10<02:19,  4.12s/it]Evaluating:  83%|████████▎ | 157/190 [18:18<02:47,  5.07s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  83%|████████▎ | 158/190 [18:27<03:22,  6.32s/it]Evaluating:  84%|████████▎ | 159/190 [18:39<04:07,  7.99s/it]Evaluating:  84%|████████▍ | 160/190 [18:44<03:38,  7.27s/it]Evaluating:  85%|████████▍ | 161/190 [18:46<02:40,  5.54s/it]Exception raised in Job[147]: TimeoutError()
+Evaluating:  85%|████████▌ | 162/190 [18:47<01:55,  4.14s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  86%|████████▌ | 163/190 [18:56<02:36,  5.80s/it]Evaluating:  86%|████████▋ | 164/190 [19:05<02:51,  6.59s/it]Evaluating:  87%|████████▋ | 165/190 [19:08<02:17,  5.52s/it]Evaluating:  87%|████████▋ | 166/190 [19:19<02:49,  7.05s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  88%|████████▊ | 167/190 [19:24<02:33,  6.68s/it]Exception raised in Job[152]: TimeoutError()
+Evaluating:  88%|████████▊ | 168/190 [19:25<01:46,  4.82s/it]Evaluating:  89%|████████▉ | 169/190 [19:34<02:11,  6.25s/it]Evaluating:  89%|████████▉ | 170/190 [19:37<01:43,  5.17s/it]Evaluating:  90%|█████████ | 171/190 [19:49<02:18,  7.31s/it]Exception raised in Job[157]: TimeoutError()
+Evaluating:  91%|█████████ | 172/190 [19:57<02:11,  7.28s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  91%|█████████ | 173/190 [19:59<01:39,  5.84s/it]Evaluating:  92%|█████████▏| 174/190 [20:03<01:24,  5.27s/it]Evaluating:  92%|█████████▏| 175/190 [20:07<01:15,  5.03s/it]Evaluating:  93%|█████████▎| 176/190 [20:17<01:27,  6.27s/it]Exception raised in Job[162]: TimeoutError()
+Evaluating:  93%|█████████▎| 177/190 [20:24<01:26,  6.67s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+Evaluating:  94%|█████████▎| 178/190 [20:27<01:07,  5.60s/it]Evaluating:  94%|█████████▍| 179/190 [20:33<01:00,  5.50s/it]Evaluating:  95%|█████████▍| 180/190 [20:42<01:07,  6.72s/it]Evaluating:  95%|█████████▌| 181/190 [20:43<00:43,  4.87s/it]Exception raised in Job[167]: TimeoutError()
+Evaluating:  96%|█████████▌| 182/190 [20:50<00:44,  5.53s/it]Evaluating:  96%|█████████▋| 183/190 [20:57<00:41,  5.90s/it]Evaluating:  97%|█████████▋| 184/190 [21:05<00:40,  6.69s/it]Exception raised in Job[172]: TimeoutError()
+Evaluating:  97%|█████████▋| 185/190 [21:18<00:42,  8.46s/it]Evaluating:  98%|█████████▊| 186/190 [21:20<00:26,  6.59s/it]Evaluating:  98%|█████████▊| 187/190 [21:26<00:19,  6.37s/it]Evaluating:  99%|█████████▉| 188/190 [21:34<00:13,  6.93s/it]Evaluating:  99%|█████████▉| 189/190 [21:37<00:05,  5.84s/it]Evaluating: 100%|██████████| 190/190 [21:40<00:00,  4.89s/it]Evaluating: 100%|██████████| 190/190 [21:40<00:00,  6.84s/it]
+faithfulness          0.9254
+answer_relevancy      0.8483
+context_precision     0.6400
+context_recall        0.9211
+answer_correctness    0.6773
+38 filas -> reports/tablas/ragas_gemma4-e4b_bge-m3.csv
+sin respuesta: 5/5 se abstienen
+# Evaluacion comparativa
+
+| Familia | Metrica | Actual | Anterior |
+|---|---|---|---|
+| Recuperacion | Recall@10 | 0.912 | 0.912 |
+| Recuperacion | nDCG@10 | 0.818 | 0.818 |
+| Recuperacion | P@1 | 0.737 | 0.737 |
+| Recuperacion | P@5 | 0.947 | 0.947 |
+| Respuesta | Entregadas | 37/38 | 33/38 |
+| Respuesta | Abstenciones directas | 1 | 5 |
+| Respuesta | Match estricto | 25/37 (67.6%) | 24/33 (72.7%) |
+| Respuesta | F1 tokens | 0.273 | 0.274 |
+| Respuesta | Latencia media | 6717 ms | 17657 ms |
+| Respuesta | Latencia mediana | 6619 ms | 17569 ms |
+| Respuesta | Contexto medio | 1361 | 3975 |
+| Respuesta con razonamiento | Entregadas | 37/38 | 33/38 |
+| Respuesta con razonamiento | Latencia media | 6400 ms | 18840 ms |
+| Recuperacion top-5 | nDCG con reranker | 0.865 | 0.809 |
+| Recuperacion top-5 | P@1 con reranker | 0.868 | 0.737 |
+| Recuperacion top-5 | Recall | 0.895 | 0.895 |
+| Recuperacion top-5 | P@5 | 0.947 | 0.947 |
+| Revision manual | Equivalentes | 33/37 (89.2%) | 32/37 (86.5%) |
+| Revision manual | Con parciales | 36/37 (97.3%) | 35/37 (94.6%) |
+| Revision manual | Correctas / parciales / incorrectas | 8/3/1 | 7/3/2 |
+| Chat | Con Modo estricto | 12/12 | 9/12 |
+| Chat | Sin Modo estricto | 9/12 | 9/12 |
+| Chat con razonamiento | Con Modo estricto | 12/12 | 9/12 |
+| RAGAS | faithfulness | 0.925 | 0.925 |
+| RAGAS | answer_relevancy | 0.848 | 0.798 |
+| RAGAS | context_precision | 0.640 | 0.760 |
+| RAGAS | context_recall | 0.921 | 0.842 |
+| RAGAS | answer_correctness | 0.677 | 0.705 |
