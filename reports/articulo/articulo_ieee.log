@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  10 NOV 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  10 NOV 2026 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -607,7 +607,10 @@ File: ../figuras/neo4j_graph_crop.png Graphic file (type png)
 <use ../figuras/neo4j_graph_crop.png>
 Package pdftex.def Info: ../figuras/neo4j_graph_crop.png  used on input line 359.
 (pdftex.def)             Requested size: 252.0pt x 113.94531pt.
- [13] [14 <../figuras/langfuse_trace_crop.png>]
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <../figuras/langfuse_trace_crop.png>]
 Underfull \vbox (badness 2042) has occurred while \output is active []
 
  [15 <../figuras/langfuse_experiment_crop.png>]
@@ -617,9 +620,12 @@ File: ../figuras/resumen_final.png Graphic file (type png)
 Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 433.
 (pdftex.def)             Requested size: 516.0pt x 223.25685pt.
  [16 <../figuras/neo4j_graph_crop.png>]
-Underfull \vbox (badness 2088) has occurred while \output is active []
+Underfull \vbox (badness 1796) has occurred while \output is active []
 
-) (./secciones/08_analisis_errores.tex [17 <../figuras/resumen_final.png>]) (./secciones/08b_discusion.tex [18]) (./secciones/08c_ambiguedad.tex [19]) (./secciones/09_limitaciones.tex [20]) (./secciones/10_conclusiones.tex) (./secciones/11_reproducibilidad.tex [21]
+
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [17 <../figuras/resumen_final.png>]) (./secciones/08_analisis_errores.tex) (./secciones/08b_discusion.tex [18]) (./secciones/08c_ambiguedad.tex [19]) (./secciones/09_limitaciones.tex [20]) (./secciones/10_conclusiones.tex [21]) (./secciones/11_reproducibilidad.tex
 Underfull \hbox (badness 2088) in paragraph at lines 34--35
 \T1/ptm/m/n/10 mis-mas mé-tri-cas. El ar-tícu-lo se com-pi-la con IEEE-tran
  []
@@ -649,7 +655,7 @@ Underfull \hbox (badness 2119) in paragraph at lines 52--53
 \T1/ptm/m/n/10 es-cri-ben en \T1/pcr/m/n/10 reports/tablas/ \T1/ptm/m/n/10 y la com-pa-ra-ción en
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 []\T1/ptm/m/n/10 El gra-fo se cons-tru-ye des-de el Par-quet con
  []
@@ -759,12 +765,14 @@ Underfull \hbox (badness 1565) in paragraph at lines 69--70
 \T1/ptm/m/n/10 fi-gu-ras es-tán en \T1/pcr/m/n/10 reports/figuras/\T1/ptm/m/n/10 , las co-rri-das en
  []
 
-[22]) (./articulo_ieee.bbl
+) (./articulo_ieee.bbl
 Underfull \hbox (badness 3199) in paragraph at lines 84--85
 []\T1/ptm/m/n/8 S. Ra-mí-rez, ``Fas-tA-PI do-cu-men-ta-tion,'' $https : / / fastapi . tiangolo . com$,
  []
 
-) [23] (./articulo_ieee.aux
+[23]) [24
+
+] (./articulo_ieee.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -782,10 +790,10 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  92i,9n,104p,3335b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on articulo_ieee.pdf (23 pages, 919630 bytes).
+Output written on articulo_ieee.pdf (24 pages, 920500 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 190 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

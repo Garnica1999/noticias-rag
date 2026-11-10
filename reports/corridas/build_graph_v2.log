@@ -1,0 +1,19 @@
+documentos: 169248
+borrando entidades y menciones anteriores
+10000/169248 docs, 18208 menciones, 220 docs/s, eta 12.1 min
+20000/169248 docs, 33923 menciones, 229 docs/s, eta 10.8 min
+30000/169248 docs, 54346 menciones, 233 docs/s, eta 10.0 min
+40000/169248 docs, 70536 menciones, 234 docs/s, eta 9.2 min
+50000/169248 docs, 85224 menciones, 235 docs/s, eta 8.5 min
+60000/169248 docs, 98951 menciones, 235 docs/s, eta 7.8 min
+70000/169248 docs, 143681 menciones, 190 docs/s, eta 8.7 min
+80000/169248 docs, 214947 menciones, 149 docs/s, eta 10.0 min
+90000/169248 docs, 286151 menciones, 129 docs/s, eta 10.3 min
+100000/169248 docs, 357015 menciones, 116 docs/s, eta 9.9 min
+110000/169248 docs, 428906 menciones, 108 docs/s, eta 9.2 min
+120000/169248 docs, 500196 menciones, 101 docs/s, eta 8.1 min
+130000/169248 docs, 571888 menciones, 97 docs/s, eta 6.8 min
+140000/169248 docs, 643210 menciones, 93 docs/s, eta 5.2 min
+150000/169248 docs, 715113 menciones, 90 docs/s, eta 3.6 min
+160000/169248 docs, 786768 menciones, 87 docs/s, eta 1.8 min
+listo: 169248 documentos, 206614 entidades, 852751 menciones en 1982.5 s
