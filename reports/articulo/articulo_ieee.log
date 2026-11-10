@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  10 NOV 2026 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  10 NOV 2026 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,41 +591,49 @@ Package pdftex.def Info: ../figuras/escala_e6_e7.png  used on input line 90.
 
 Underfull \vbox (badness 1221) has occurred while \output is active []
 
- [11 <../figuras/limpieza_comparacion.png> <../figuras/e1_chunking.png> <../figuras/e2_k5_vs_k10.png>] [12 <../figuras/escala_e6_e7.png>]
+ [11 <../figuras/limpieza_comparacion.png> <../figuras/e1_chunking.png> <../figuras/e2_k5_vs_k10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+[]\T1/ptm/m/n/10 Se pro-bó un ge-ne-ra-dor lo-cal de 27B
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+\T1/ptm/m/n/10 (\T1/pcr/m/n/10 qwen3.8:docs-32k-q3_k_s\T1/ptm/m/n/10 , Q3) con el mis-mo
+ []
+
+[12 <../figuras/escala_e6_e7.png>]
 <../figuras/langfuse_trace_crop.png, id=79, 1365.1pt x 782.925pt>
 File: ../figuras/langfuse_trace_crop.png Graphic file (type png)
 <use ../figuras/langfuse_trace_crop.png>
-Package pdftex.def Info: ../figuras/langfuse_trace_crop.png  used on input line 320.
+Package pdftex.def Info: ../figuras/langfuse_trace_crop.png  used on input line 322.
 (pdftex.def)             Requested size: 516.0pt x 295.93765pt.
 <../figuras/langfuse_experiment_crop.png, id=80, 1405.25pt x 917.4275pt>
 File: ../figuras/langfuse_experiment_crop.png Graphic file (type png)
 <use ../figuras/langfuse_experiment_crop.png>
-Package pdftex.def Info: ../figuras/langfuse_experiment_crop.png  used on input line 329.
+Package pdftex.def Info: ../figuras/langfuse_experiment_crop.png  used on input line 331.
 (pdftex.def)             Requested size: 516.0pt x 336.88109pt.
-<../figuras/neo4j_graph_crop.png, id=81, 1154.3125pt x 521.95pt>
+ [13]
+<../figuras/neo4j_graph_crop.png, id=85, 1154.3125pt x 521.95pt>
 File: ../figuras/neo4j_graph_crop.png Graphic file (type png)
 <use ../figuras/neo4j_graph_crop.png>
-Package pdftex.def Info: ../figuras/neo4j_graph_crop.png  used on input line 359.
+Package pdftex.def Info: ../figuras/neo4j_graph_crop.png  used on input line 361.
 (pdftex.def)             Requested size: 252.0pt x 113.94531pt.
- [13]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <../figuras/langfuse_trace_crop.png>]
-Underfull \vbox (badness 2042) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <../figuras/langfuse_experiment_crop.png>]
 <../figuras/resumen_final.png, id=94, 522.87344pt x 226.2051pt>
 File: ../figuras/resumen_final.png Graphic file (type png)
 <use ../figuras/resumen_final.png>
-Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 433.
+Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 435.
 (pdftex.def)             Requested size: 516.0pt x 223.25685pt.
  [16 <../figuras/neo4j_graph_crop.png>]
-Underfull \vbox (badness 1796) has occurred while \output is active []
+Underfull \vbox (badness 7133) has occurred while \output is active []
 
-
-Underfull \vbox (badness 5652) has occurred while \output is active []
-
- [17 <../figuras/resumen_final.png>]) (./secciones/08_analisis_errores.tex) (./secciones/08b_discusion.tex [18]) (./secciones/08c_ambiguedad.tex [19]) (./secciones/09_limitaciones.tex [20]) (./secciones/10_conclusiones.tex [21]) (./secciones/11_reproducibilidad.tex
+) (./secciones/08_analisis_errores.tex [17 <../figuras/resumen_final.png>]) (./secciones/08b_discusion.tex [18]) (./secciones/08c_ambiguedad.tex [19]) (./secciones/09_limitaciones.tex [20]) (./secciones/10_conclusiones.tex [21]) (./secciones/11_reproducibilidad.tex
 Underfull \hbox (badness 2088) in paragraph at lines 34--35
 \T1/ptm/m/n/10 mis-mas mé-tri-cas. El ar-tícu-lo se com-pi-la con IEEE-tran
  []
@@ -790,7 +798,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  92i,9n,104p,3335b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on articulo_ieee.pdf (24 pages, 920500 bytes).
+Output written on articulo_ieee.pdf (24 pages, 921021 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams
