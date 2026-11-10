@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  8 NOV 2026 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  10 NOV 2026 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,7 +515,10 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/home/carlos/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) (./secciones/01_introduccion.tex [1{/home/carlos/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/carlos/.TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)) (./secciones/01_introduccion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/home/carlos/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/carlos/.TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]) (./secciones/02_trabajos_relacionados.tex
@@ -528,23 +531,23 @@ File: ../figuras/perfil_anios.png Graphic file (type png)
 <use ../figuras/perfil_anios.png>
 Package pdftex.def Info: ../figuras/perfil_anios.png  used on input line 49.
 (pdftex.def)             Requested size: 252.0pt x 106.5441pt.
- [3 <../figuras/perfil_anios.png>]
-<../figuras/perfil_colecciones.png, id=25, 273.54195pt x 135.8676pt>
+ [3]
+<../figuras/perfil_colecciones.png, id=24, 273.54195pt x 135.8676pt>
 File: ../figuras/perfil_colecciones.png Graphic file (type png)
 <use ../figuras/perfil_colecciones.png>
 Package pdftex.def Info: ../figuras/perfil_colecciones.png  used on input line 70.
 (pdftex.def)             Requested size: 252.0pt x 125.17175pt.
-<../figuras/textometria_near_dups.png, id=26, 235.23885pt x 139.84245pt>
+<../figuras/textometria_near_dups.png, id=25, 235.23885pt x 139.84245pt>
 File: ../figuras/textometria_near_dups.png Graphic file (type png)
 <use ../figuras/textometria_near_dups.png>
 Package pdftex.def Info: ../figuras/textometria_near_dups.png  used on input line 111.
 (pdftex.def)             Requested size: 252.0pt x 149.80704pt.
-<../figuras/textometria_mosaico.png, id=27, 513.8397pt x 168.3891pt>
+<../figuras/textometria_mosaico.png, id=26, 513.8397pt x 168.3891pt>
 File: ../figuras/textometria_mosaico.png Graphic file (type png)
 <use ../figuras/textometria_mosaico.png>
 Package pdftex.def Info: ../figuras/textometria_mosaico.png  used on input line 119.
 (pdftex.def)             Requested size: 516.0pt x 169.10553pt.
-) (./secciones/04_arquitectura.tex [4 <../figuras/perfil_colecciones.png> <../figuras/textometria_near_dups.png>] [5 <../figuras/textometria_mosaico.png>]
+) (./secciones/04_arquitectura.tex [4 <../figuras/perfil_anios.png> <../figuras/perfil_colecciones.png> <../figuras/textometria_near_dups.png>] [5 <../figuras/textometria_mosaico.png>]
 <figuras/ui_recorte.png, id=41, 737.75626pt x 823.075pt>
 File: figuras/ui_recorte.png Graphic file (type png)
 <use figuras/ui_recorte.png>
@@ -586,12 +589,34 @@ File: ../figuras/escala_e6_e7.png Graphic file (type png)
 Package pdftex.def Info: ../figuras/escala_e6_e7.png  used on input line 90.
 (pdftex.def)             Requested size: 252.0pt x 216.79816pt.
  [11 <../figuras/limpieza_comparacion.png> <../figuras/e1_chunking.png> <../figuras/e2_k5_vs_k10.png>] [12 <../figuras/escala_e6_e7.png>]
-<../figuras/resumen_final.png, id=78, 522.87344pt x 226.2051pt>
+<../figuras/langfuse_trace_crop.png, id=78, 1365.1pt x 782.925pt>
+File: ../figuras/langfuse_trace_crop.png Graphic file (type png)
+<use ../figuras/langfuse_trace_crop.png>
+Package pdftex.def Info: ../figuras/langfuse_trace_crop.png  used on input line 320.
+(pdftex.def)             Requested size: 516.0pt x 295.93765pt.
+<../figuras/langfuse_experiment_crop.png, id=79, 1405.25pt x 917.4275pt>
+File: ../figuras/langfuse_experiment_crop.png Graphic file (type png)
+<use ../figuras/langfuse_experiment_crop.png>
+Package pdftex.def Info: ../figuras/langfuse_experiment_crop.png  used on input line 329.
+(pdftex.def)             Requested size: 516.0pt x 336.88109pt.
+<../figuras/neo4j_graph_crop.png, id=80, 1154.3125pt x 521.95pt>
+File: ../figuras/neo4j_graph_crop.png Graphic file (type png)
+<use ../figuras/neo4j_graph_crop.png>
+Package pdftex.def Info: ../figuras/neo4j_graph_crop.png  used on input line 359.
+(pdftex.def)             Requested size: 252.0pt x 113.94531pt.
+ [13]
+<../figuras/resumen_final.png, id=85, 522.87344pt x 226.2051pt>
 File: ../figuras/resumen_final.png Graphic file (type png)
 <use ../figuras/resumen_final.png>
-Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 319.
+Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 390.
 (pdftex.def)             Requested size: 516.0pt x 223.25685pt.
- [13]) (./secciones/08_analisis_errores.tex [14 <../figuras/resumen_final.png>]) (./secciones/08b_discusion.tex [15]) (./secciones/08c_ambiguedad.tex [16]) (./secciones/09_limitaciones.tex [17]) (./secciones/10_conclusiones.tex [18]) (./secciones/11_reproducibilidad.tex
+ [14 <../figuras/langfuse_trace_crop.png>]
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+
+Underfull \vbox (badness 5302) has occurred while \output is active []
+
+ [15 <../figuras/langfuse_experiment_crop.png>]) (./secciones/08_analisis_errores.tex [16 <../figuras/neo4j_graph_crop.png>]) (./secciones/08b_discusion.tex [17 <../figuras/resumen_final.png>]) (./secciones/08c_ambiguedad.tex [18]) (./secciones/09_limitaciones.tex [19]) (./secciones/10_conclusiones.tex [20]) (./secciones/11_reproducibilidad.tex
 Underfull \hbox (badness 2088) in paragraph at lines 34--35
 \T1/ptm/m/n/10 mis-mas mé-tri-cas. El ar-tícu-lo se com-pi-la con IEEE-tran
  []
@@ -622,81 +647,123 @@ Underfull \hbox (badness 2119) in paragraph at lines 52--53
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\T1/ptm/m/n/10 El gra-fo se cons-tru-ye des-de el Par-quet con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/pcr/m/n/10 python -m src.scripts.build_graph
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/pcr/m/n/10 --batch 1000 \T1/ptm/m/n/10 y las co-rri-das se re-gis-tran con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/pcr/m/n/10 python -m src.scripts.eval_langfuse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/pcr/m/n/10 --run baseline-final\T1/ptm/m/n/10 . El mo-do del re-cu-pe-ra-dor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/ptm/m/n/10 se eli-ge por pe-ti-ción con el cam-po \T1/pcr/m/n/10 retriever
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/ptm/m/n/10 (\T1/pcr/m/n/10 hybrid_union\T1/ptm/m/n/10 , \T1/pcr/m/n/10 hybrid_boost\T1/ptm/m/n/10 , \T1/pcr/m/n/10 graph_hybrid\T1/ptm/m/n/10 ).
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 65--66
+\T1/ptm/m/n/10 Las cap-tu-ras de Lang-fu-se y Neo4j se ge-ne-ran con
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 []\T1/ptm/m/n/10 El sil-ver con-so-li-da-do es-tá en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/pcr/m/n/10 eval/silver/silver_standard.jsonl\T1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/ptm/m/n/10 con su ver-sión am-plia-da en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/pcr/m/n/10 silver_standard_ampliado.jsonl\T1/ptm/m/n/10 . El
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/ptm/m/n/10 con-jun-to re-ser-va-do (\T1/pcr/m/n/10 silver_reservado.jsonl\T1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/ptm/m/n/10 con hashes en \T1/pcr/m/n/10 README_RESERVADO.md\T1/ptm/m/n/10 ) es-cri-be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/pcr/m/n/10 reports/corridas/reservado_*_raw.jsonl \T1/ptm/m/n/10 y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/pcr/m/n/10 reports/tablas/reservado_*_resumen.csv\T1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/ptm/m/n/10 El sil-ver de am-bi-güe-dad es-tá en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/pcr/m/n/10 eval/silver/silver_ambiguedad*.jsonl\T1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/ptm/m/n/10 con las ta-blas \T1/pcr/m/n/10 ambiguedad_*_resumen.csv \T1/ptm/m/n/10 y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \T1/pcr/m/n/10 ambiguedad_*_por_pregunta.csv\T1/ptm/m/n/10 . La ca-pa de
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 56--57
+Underfull \hbox (badness 3148) in paragraph at lines 69--70
 \T1/ptm/m/n/10 da-tos se de-fi-ne en \T1/pcr/m/n/10 docker-stack.yml \T1/ptm/m/n/10 y el mo-do
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 56--57
+Underfull \hbox (badness 1565) in paragraph at lines 69--70
 \T1/ptm/m/n/10 fi-gu-ras es-tán en \T1/pcr/m/n/10 reports/figuras/\T1/ptm/m/n/10 , las co-rri-das en
  []
 
-[19]) (./articulo_ieee.bbl
+) (./articulo_ieee.bbl
 Underfull \hbox (badness 3199) in paragraph at lines 84--85
 []\T1/ptm/m/n/8 S. Ra-mí-rez, ``Fas-tA-PI do-cu-men-ta-tion,'' $https : / / fastapi . tiangolo . com$,
  []
 
-) [20] (./articulo_ieee.aux
+[22]) [23
+
+] (./articulo_ieee.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -706,18 +773,18 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17183 strings out of 469140
- 349387 string characters out of 5459476
- 768159 words of memory out of 5000000
- 45863 multiletter control sequences out of 15000+600000
+ 17217 strings out of 469140
+ 350541 string characters out of 5459476
+ 768310 words of memory out of 5000000
+ 45897 multiletter control sequences out of 15000+600000
  745050 words of font info for 164 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 92i,9n,104p,2697b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,9n,104p,2930b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on articulo_ieee.pdf (20 pages, 680424 bytes).
+Output written on articulo_ieee.pdf (23 pages, 906303 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 181 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
