@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  10 NOV 2026 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  10 NOV 2026 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,7 +614,7 @@ Underfull \vbox (badness 2042) has occurred while \output is active []
 <../figuras/resumen_final.png, id=93, 522.87344pt x 226.2051pt>
 File: ../figuras/resumen_final.png Graphic file (type png)
 <use ../figuras/resumen_final.png>
-Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 432.
+Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 433.
 (pdftex.def)             Requested size: 516.0pt x 223.25685pt.
  [16 <../figuras/neo4j_graph_crop.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -782,7 +782,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  92i,9n,104p,3241b,799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on articulo_ieee.pdf (23 pages, 909129 bytes).
+Output written on articulo_ieee.pdf (23 pages, 909131 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
