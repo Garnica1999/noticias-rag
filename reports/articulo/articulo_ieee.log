@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  13 NOV 2026 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  13 NOV 2026 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,16 +661,53 @@ Underfull \hbox (badness 3158) in paragraph at lines 58--59
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[]\T1/ptm/m/n/10 La apli-ca-ción que-dó pu-bli-ca-da en $https : / / tallerrag .
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 89--90
+\T1/ptm/m/n/10 hardwareelite . online$ me-dian-te un tú-nel de Cloud-fla-re.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+\T1/ptm/m/n/10 El tú-nel \T1/pcr/m/n/10 taller-rag \T1/ptm/m/n/10 se creó con la API de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+\T1/ptm/m/n/10 el puer-to del fron-tend, y el res-to de las ru-tas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+\T1/ptm/m/n/10 de-vuel-ve 404. El DNS es un CNA-ME pro-xied a
+ []
+
+
+Underfull \hbox (badness 5939) in paragraph at lines 89--90
+\T1/pcr/m/n/10 <id>.cfargotunnel.com\T1/ptm/m/n/10 . El co-nec-tor co-rre co-mo
+ []
+
+<../figuras/demo_publica.png, id=127, 998.73125pt x 521.95pt>
+File: ../figuras/demo_publica.png Graphic file (type png)
+<use ../figuras/demo_publica.png>
+Package pdftex.def Info: ../figuras/demo_publica.png  used on input line 95.
+(pdftex.def)             Requested size: 464.39685pt x 242.69627pt.
+
+Underfull \hbox (badness 2221) in paragraph at lines 111--112
 \T1/ptm/m/n/10 y Fi-re-fox head-less. El mo-do del re-cu-pe-ra-dor se eli-ge
  []
 
-) [26] (./articulo_ieee.bbl
+[26]) (./articulo_ieee.bbl [27 <../figuras/demo_publica.png>]
 Underfull \hbox (badness 3199) in paragraph at lines 84--85
 []\T1/ptm/m/n/8 S. Ra-mí-rez, ``Fas-tA-PI do-cu-men-ta-tion,'' $https : / / fastapi . tiangolo . com$,
  []
 
-) [27] (./articulo_ieee.aux
+) [28
+
+] (./articulo_ieee.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -680,18 +717,18 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17294 strings out of 469140
- 351455 string characters out of 5459476
- 770997 words of memory out of 5000000
- 45967 multiletter control sequences out of 15000+600000
+ 17305 strings out of 469140
+ 351756 string characters out of 5459476
+ 771060 words of memory out of 5000000
+ 45978 multiletter control sequences out of 15000+600000
  746201 words of font info for 164 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  92i,11n,104p,3531b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on articulo_ieee.pdf (27 pages, 923961 bytes).
+Output written on articulo_ieee.pdf (28 pages, 960364 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 195 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
