@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  13 NOV 2026 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  13 NOV 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,18 +509,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package babel Info: Main language set to 'spanish'.
- (./secciones/00_resumen.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (./secciones/00_resumen.tex) (./secciones/01_introduccion.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
  (/home/carlos/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (/home/carlos/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-) (./secciones/01_introduccion.tex [1{/home/carlos/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/carlos/.TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
+) [1{/home/carlos/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/carlos/.TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]) (./secciones/02_trabajos_relacionados.tex
@@ -528,23 +525,23 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 22.
  (/home/carlos/.TinyTeX/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [2]) (./secciones/03_corpus_eda.tex
-<../figuras/perfil_anios.png, id=20, 446.6286pt x 244.2726pt>
+<../figuras/perfil_anios.png, id=17, 446.6286pt x 244.2726pt>
 File: ../figuras/perfil_anios.png Graphic file (type png)
 <use ../figuras/perfil_anios.png>
 Package pdftex.def Info: ../figuras/perfil_anios.png  used on input line 49.
 (pdftex.def)             Requested size: 252.0pt x 137.82417pt.
- [3]
-<../figuras/perfil_colecciones.png, id=25, 273.54195pt x 135.8676pt>
+ [3 <../figuras/perfil_anios.png>]
+<../figuras/perfil_colecciones.png, id=23, 273.54195pt x 135.8676pt>
 File: ../figuras/perfil_colecciones.png Graphic file (type png)
 <use ../figuras/perfil_colecciones.png>
 Package pdftex.def Info: ../figuras/perfil_colecciones.png  used on input line 70.
 (pdftex.def)             Requested size: 252.0pt x 125.17175pt.
-<../figuras/textometria_near_dups.png, id=26, 235.23885pt x 139.84245pt>
+<../figuras/textometria_near_dups.png, id=24, 235.23885pt x 139.84245pt>
 File: ../figuras/textometria_near_dups.png Graphic file (type png)
 <use ../figuras/textometria_near_dups.png>
 Package pdftex.def Info: ../figuras/textometria_near_dups.png  used on input line 111.
 (pdftex.def)             Requested size: 252.0pt x 149.80704pt.
-<../figuras/textometria_mosaico.png, id=27, 513.8397pt x 168.3891pt>
+<../figuras/textometria_mosaico.png, id=25, 513.8397pt x 168.3891pt>
 File: ../figuras/textometria_mosaico.png Graphic file (type png)
 <use ../figuras/textometria_mosaico.png>
 Package pdftex.def Info: ../figuras/textometria_mosaico.png  used on input line 119.
@@ -553,17 +550,17 @@ Package pdftex.def Info: ../figuras/textometria_mosaico.png  used on input line 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 30.
  (/home/carlos/.TinyTeX/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [4 <../figuras/perfil_anios.png> <../figuras/perfil_colecciones.png> <../figuras/textometria_near_dups.png>] [5 <../figuras/textometria_mosaico.png>]
+) [4 <../figuras/perfil_colecciones.png> <../figuras/textometria_near_dups.png>] [5 <../figuras/textometria_mosaico.png>]
 Underfull \hbox (badness 1721) in paragraph at lines 147--148
 \T1/ptm/m/n/10 con la eti-que-ta \T1/pcr/m/n/10 role=data\T1/ptm/m/n/10 . Mil-vus pu-bli-ca el puer-to
  []
 
-<figuras/ui_recorte.png, id=42, 737.75626pt x 823.075pt>
+<figuras/ui_recorte.png, id=39, 737.75626pt x 823.075pt>
 File: figuras/ui_recorte.png Graphic file (type png)
 <use figuras/ui_recorte.png>
 Package pdftex.def Info: figuras/ui_recorte.png  used on input line 159.
 (pdftex.def)             Requested size: 464.39685pt x 518.10042pt.
-<../figuras/ui_m3_estricto.png, id=43, 1445.4pt x 1017.8025pt>
+<../figuras/ui_m3_estricto.png, id=40, 1445.4pt x 1017.8025pt>
 File: ../figuras/ui_m3_estricto.png Graphic file (type png)
 <use ../figuras/ui_m3_estricto.png>
 Package pdftex.def Info: ../figuras/ui_m3_estricto.png  used on input line 166.
@@ -573,10 +570,16 @@ Underfull \hbox (badness 5417) in paragraph at lines 17--18
 \T1/ptm/m/n/10 GPU, en fp16 y por lo-tes. La co-lec-ción se lla-ma
  []
 
-[6] [7]
+[6]
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
+ [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./figuras/ui_recorte.png>] [9 <../figuras/ui_m3_estricto.png>]) (./secciones/06_protocolo_evaluacion.tex [10]) (./secciones/07_experimentos.tex [11]
+ [8 <./figuras/ui_recorte.png>] [9 <../figuras/ui_m3_estricto.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]) (./secciones/06_protocolo_evaluacion.tex [11]) (./secciones/07_experimentos.tex [12]
 <../figuras/limpieza_comparacion.png, id=67, 360.6273pt x 232.7094pt>
 File: ../figuras/limpieza_comparacion.png Graphic file (type png)
 <use ../figuras/limpieza_comparacion.png>
@@ -597,7 +600,7 @@ File: ../figuras/escala_e6_e7.png Graphic file (type png)
 <use ../figuras/escala_e6_e7.png>
 Package pdftex.def Info: ../figuras/escala_e6_e7.png  used on input line 90.
 (pdftex.def)             Requested size: 252.0pt x 216.79816pt.
- [12 <../figuras/limpieza_comparacion.png>] [13 <../figuras/e1_chunking.png> <../figuras/e2_k5_vs_k10.png> <../figuras/escala_e6_e7.png>]
+ [13 <../figuras/limpieza_comparacion.png> <../figuras/e1_chunking.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
 []\T1/ptm/m/n/10 Se pro-bó un ge-ne-ra-dor lo-cal de 27B
  []
@@ -607,12 +610,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
 \T1/ptm/m/n/10 (\T1/pcr/m/n/10 qwen3.8:docs-32k-q3_k_s\T1/ptm/m/n/10 , Q3) con el mis-mo
  []
 
-[14]
-<../figuras/langfuse_trace_crop.png, id=87, 1365.1pt x 782.925pt>
+[14 <../figuras/e2_k5_vs_k10.png> <../figuras/escala_e6_e7.png>]
+<../figuras/langfuse_trace_crop.png, id=84, 1365.1pt x 782.925pt>
 File: ../figuras/langfuse_trace_crop.png Graphic file (type png)
 <use ../figuras/langfuse_trace_crop.png>
 Package pdftex.def Info: ../figuras/langfuse_trace_crop.png  used on input line 322.
 (pdftex.def)             Requested size: 516.0pt x 295.93765pt.
+ [15]
 <../figuras/langfuse_experiment_crop.png, id=88, 1405.25pt x 917.4275pt>
 File: ../figuras/langfuse_experiment_crop.png Graphic file (type png)
 <use ../figuras/langfuse_experiment_crop.png>
@@ -623,11 +627,11 @@ File: ../figuras/neo4j_graph_crop.png Graphic file (type png)
 <use ../figuras/neo4j_graph_crop.png>
 Package pdftex.def Info: ../figuras/neo4j_graph_crop.png  used on input line 362.
 (pdftex.def)             Requested size: 252.0pt x 113.94531pt.
- [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [16 <../figuras/langfuse_trace_crop.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5302) has occurred while \output is active []
+
+
+Underfull \vbox (badness 5302) has occurred while \output is active []
 
  [17 <../figuras/langfuse_experiment_crop.png>]
 Underfull \hbox (badness 1715) in paragraph at lines 476--476
@@ -635,12 +639,18 @@ Underfull \hbox (badness 1715) in paragraph at lines 476--476
  []
 
 [18 <../figuras/neo4j_graph_crop.png>]
-<../figuras/resumen_final.png, id=105, 522.87344pt x 226.2051pt>
+<../figuras/resumen_final.png, id=102, 522.87344pt x 226.2051pt>
 File: ../figuras/resumen_final.png Graphic file (type png)
 <use ../figuras/resumen_final.png>
 Package pdftex.def Info: ../figuras/resumen_final.png  used on input line 510.
 (pdftex.def)             Requested size: 516.0pt x 223.25685pt.
- [19]) (./secciones/08_analisis_errores.tex [20 <../figuras/resumen_final.png>]) (./secciones/08b_discusion.tex [21]) (./secciones/08c_ambiguedad.tex [22]) (./secciones/09_limitaciones.tex [23]) (./secciones/10_conclusiones.tex) (./secciones/11_reproducibilidad.tex [24]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 6725) has occurred while \output is active []
+
+ [20 <../figuras/resumen_final.png>]) (./secciones/08_analisis_errores.tex) (./secciones/08b_discusion.tex [21]) (./secciones/08c_ambiguedad.tex [22] [23]) (./secciones/09_limitaciones.tex) (./secciones/10_conclusiones.tex [24]) (./secciones/11_reproducibilidad.tex [25]
 Underfull \hbox (badness 2088) in paragraph at lines 34--35
 \T1/ptm/m/n/10 mis-mas mé-tri-cas. El ar-tícu-lo se com-pi-la con IEEE-tran
  []
@@ -650,19 +660,17 @@ Underfull \hbox (badness 3158) in paragraph at lines 58--59
 []\T1/ptm/m/n/10 El gra-fo se cons-tru-ye des-de el Par-quet con \T1/pcr/m/n/10 make
  []
 
-[25]
+
 Underfull \hbox (badness 2221) in paragraph at lines 95--96
 \T1/ptm/m/n/10 y Fi-re-fox head-less. El mo-do del re-cu-pe-ra-dor se eli-ge
  []
 
-) (./articulo_ieee.bbl [26]
+) [26] (./articulo_ieee.bbl
 Underfull \hbox (badness 3199) in paragraph at lines 84--85
 []\T1/ptm/m/n/8 S. Ra-mí-rez, ``Fas-tA-PI do-cu-men-ta-tion,'' $https : / / fastapi . tiangolo . com$,
  []
 
-) [27
-
-] (./articulo_ieee.aux
+) [27] (./articulo_ieee.aux
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
 )
@@ -672,18 +680,18 @@ L3 programming layer <2026-06-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17302 strings out of 469140
- 351510 string characters out of 5459476
- 773702 words of memory out of 5000000
- 45971 multiletter control sequences out of 15000+600000
- 747746 words of font info for 170 fonts, out of 8000000 for 9000
+ 17294 strings out of 469140
+ 351455 string characters out of 5459476
+ 770997 words of memory out of 5000000
+ 45967 multiletter control sequences out of 15000+600000
+ 746201 words of font info for 164 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 92i,11n,104p,3714b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on articulo_ieee.pdf (27 pages, 947832 bytes).
+ 92i,11n,104p,3531b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/carlos/.TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on articulo_ieee.pdf (27 pages, 923961 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 190 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
