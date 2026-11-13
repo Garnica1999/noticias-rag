@@ -15,6 +15,8 @@
 \babel@aux{spanish}{}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introducci\'on}{1}{}\protected@file@percent }
 \newlabel{sec:intro}{{I}{1}{}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-A}}Preguntas de investigaci\'on}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-B}}Aportes}{1}{}\protected@file@percent }
 \citation{lewis2020rag}
 \citation{robertson2009bm25}
 \citation{cormack2009rrf}
@@ -34,8 +36,6 @@
 \citation{ru2024ragchecker}
 \citation{liu2024lost}
 \citation{niu2024ragtruth}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-A}}Preguntas de investigaci\'on}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-B}}Aportes}{2}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-C}}Organizaci\'on}{2}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {II}Trabajos relacionados}{2}{}\protected@file@percent }
 \newlabel{sec:relacionados}{{II}{2}{}{section.2}{}}
@@ -44,25 +44,27 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Codificadores y recuperaci\'on}{2}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}Reordenamiento}{2}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}\'Indices vectoriales}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-F}}Evaluaci\'on}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-F}}Evaluaci\'on}{2}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Composici\'on del corpus por colecci\'on.}}{3}{}\protected@file@percent }
+\newlabel{tab:composicion}{{I}{3}{}{table.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-G}}Abstenci\'on y control de dominio}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-H}}Posici\'on de este trabajo}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {III}Corpus y an\'alisis exploratorio}{3}{}\protected@file@percent }
 \newlabel{sec:corpus}{{III}{3}{}{section.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Composici\'on}{3}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Composici\'on del corpus por colecci\'on.}}{3}{}\protected@file@percent }
-\newlabel{tab:composicion}{{I}{3}{}{table.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Idioma normalizado del corpus. El resto agrupa los idiomas con menos de 500 documentos.}}{3}{}\protected@file@percent }
 \newlabel{tab:idiomas}{{II}{3}{}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Documentos por a\~no en el corpus.}}{3}{}\protected@file@percent }
+\newlabel{fig:anios}{{1}{3}{}{figure.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Duplicados y longitud}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Ruido de rastreo}{3}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Documentos por a\~no en el corpus.}}{4}{}\protected@file@percent }
-\newlabel{fig:anios}{{1}{4}{}{figure.1}{}}
+\citation{malkov2020hnsw}
+\citation{chen2024bge}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Documentos por colecci\'on. Los dos totales coinciden con la Tabla~\ref {tab:composicion}.}}{4}{}\protected@file@percent }
 \newlabel{fig:colecciones}{{2}{4}{}{figure.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Textometr\'ia}{4}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Textometr\'ia del piloto y de una muestra del corpus completo.}}{4}{}\protected@file@percent }
 \newlabel{tab:textometria}{{III}{4}{}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Textometr\'ia}{4}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Porcentaje de documentos con near-duplicates (SimHash, distancia $\leq 3$).}}{4}{}\protected@file@percent }
 \newlabel{fig:dups}{{3}{4}{}{figure.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-E}}Decisiones de procesamiento}{4}{}\protected@file@percent }
@@ -70,15 +72,13 @@
 \newlabel{sec:arquitectura}{{IV}{4}{}{section.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Vista general}{4}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Capas y justificaci\'on}{4}{}\protected@file@percent }
-\citation{malkov2020hnsw}
-\citation{chen2024bge}
 \citation{nogueira2019passage}
+\citation{fastapidocs}
+\citation{streamlitdocs}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Textometr\'ia del piloto y de una muestra del corpus: rango frente a frecuencia en escala logar\'itmica y distribuci\'on de longitud en palabras.}}{5}{}\protected@file@percent }
 \newlabel{fig:textometria}{{4}{5}{}{figure.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Arquitectura de la instancia final. La capa de datos (Milvus, Solr y Neo4j) se despliega como stack de Docker Swarm en el servidor y la aplicaci\'on (API, interfaz y Ollama) con Compose en la estaci\'on, que es la \'unica que pasa la GPU AMD. La consulta se traduce al otro idioma del corpus y las dos listas se fusionan por RRF; el router \texttt  {hybrid\_boost} une la recuperaci\'on densa y BM25 con el bono de entidades del grafo; el contexto se deduplica y se comprime antes del prompt v3. Las l\'ineas discontinuas marcan la traza hacia Langfuse y la abstenci\'on con motivo; el bloque de evaluaci\'on no forma parte del flujo de una consulta.}}{5}{}\protected@file@percent }
 \newlabel{fig:arquitectura}{{5}{5}{}{figure.5}{}}
-\citation{fastapidocs}
-\citation{streamlitdocs}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Mapa de t\'ecnicas}{6}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Configuraci\'on final}{6}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-E}}Despliegue: datos en Swarm, GPU en la estaci\'on}{6}{}\protected@file@percent }
@@ -91,85 +91,89 @@
 \newlabel{sec:chunking}{{\mbox  {V-B}}{6}{}{subsection.5.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Codificaci\'on e \'indice}{6}{}\protected@file@percent }
 \newlabel{sec:indice}{{\mbox  {V-C}}{6}{}{subsection.5.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Recuperaci\'on y reordenamiento}{6}{}\protected@file@percent }
-\newlabel{sec:recuperacion}{{\mbox  {V-D}}{6}{}{subsection.5.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Enrutamiento y condensaci\'on}{6}{}\protected@file@percent }
+\newlabel{sec:enrutamiento}{{\mbox  {V-D}}{6}{}{subsection.5.4}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces T\'ecnicas de la configuraci\'on final: problema, implementaci\'on, resultado y secci\'on.}}{7}{}\protected@file@percent }
 \newlabel{tab:tecnicas}{{IV}{7}{}{table.4}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Configuraci\'on desplegada. Los valores se fijan en \texttt  {.env} y cada uno se justifica en las Secciones~\ref {sec:metodo} y~\ref {sec:experimentos}.}}{7}{}\protected@file@percent }
 \newlabel{tab:config-final}{{V}{7}{}{table.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Traducci\'on de la consulta}{7}{}\protected@file@percent }
-\newlabel{sec:traduccion}{{\mbox  {V-E}}{7}{}{subsection.5.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Vecinos sem\'anticos y sensibilidad a la par\'afrasis}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Recuperaci\'on y reordenamiento}{7}{}\protected@file@percent }
+\newlabel{sec:recuperacion}{{\mbox  {V-E}}{7}{}{subsection.5.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Traducci\'on de la consulta}{7}{}\protected@file@percent }
+\newlabel{sec:traduccion}{{\mbox  {V-F}}{7}{}{subsection.5.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Interfaz final: respuesta con citas y evidencias abiertas. La pregunta se acepta con probabilidad de dominio 0,956; la respuesta cita diez evidencias y el panel muestra t\'itulo, puntuaci\'on, fragmento, enlace y metadatos de la primera. El chip de la derecha identifica la ruta de ejecuci\'on, no un guardarra\'il de cita.}}{8}{}\protected@file@percent }
 \newlabel{fig:ui}{{6}{8}{}{figure.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Vecinos sem\'anticos de dos consultas de ejemplo en la colecci\'on final. \upshape \textit  {s/d}: el campo de idioma viene vac\'io en la fuente y no se infiere. La primera consulta devolvi\'o cuatro vecinos con $k=5$.}}{9}{}\protected@file@percent }
-\newlabel{tab:vecinos}{{VI}{9}{}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-G}}Vecinos sem\'anticos y sensibilidad a la par\'afrasis}{8}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Modo estricto: la compuerta rechaza una pregunta fuera de dominio y explica el motivo.}}{9}{}\protected@file@percent }
 \newlabel{fig:ui-estricto}{{7}{9}{}{figure.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces nDCG ante par\'afrasis por mezcla denso/disperso ($n=9$ en ingl\'es, $n=11$ en espa\~nol).}}{9}{}\protected@file@percent }
-\newlabel{tab:parafrasis}{{VII}{9}{}{table.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-G}}Grafo de entidades}{9}{}\protected@file@percent }
-\newlabel{sec:grafo}{{\mbox  {V-G}}{9}{}{subsection.5.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-H}}Generaci\'on}{9}{}\protected@file@percent }
-\newlabel{sec:generacion}{{\mbox  {V-H}}{9}{}{subsection.5.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-I}}Extracci\'on de listas}{10}{}\protected@file@percent }
-\newlabel{sec:listas}{{\mbox  {V-I}}{10}{}{subsection.5.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-J}}Guardarra\'iles}{10}{}\protected@file@percent }
-\newlabel{sec:guardarrailes}{{\mbox  {V-J}}{10}{}{subsection.5.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-K}}Compuerta de dominio}{10}{}\protected@file@percent }
-\newlabel{sec:compuerta}{{\mbox  {V-K}}{10}{}{subsection.5.11}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-L}}Observabilidad}{10}{}\protected@file@percent }
-\newlabel{sec:obs-metodo}{{\mbox  {V-L}}{10}{}{subsection.5.12}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-M}}Solr como backend alterno}{10}{}\protected@file@percent }
-\newlabel{sec:solr}{{\mbox  {V-M}}{10}{}{subsection.5.13}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-N}}API e interfaz}{10}{}\protected@file@percent }
-\newlabel{sec:api}{{\mbox  {V-N}}{10}{}{subsection.5.14}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-O}}Despliegue}{10}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Protocolo de evaluaci\'on}{10}{}\protected@file@percent }
-\newlabel{sec:evaluacion}{{VI}{10}{}{section.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Silver est\'andar}{10}{}\protected@file@percent }
-\citation{es2023ragas}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-H}}Grafo de entidades}{9}{}\protected@file@percent }
+\newlabel{sec:grafo}{{\mbox  {V-H}}{9}{}{subsection.5.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-I}}Generaci\'on}{9}{}\protected@file@percent }
+\newlabel{sec:generacion}{{\mbox  {V-I}}{9}{}{subsection.5.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-J}}Extracci\'on de listas}{9}{}\protected@file@percent }
+\newlabel{sec:listas}{{\mbox  {V-J}}{9}{}{subsection.5.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-K}}Guardarra\'iles}{9}{}\protected@file@percent }
+\newlabel{sec:guardarrailes}{{\mbox  {V-K}}{9}{}{subsection.5.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Vecinos sem\'anticos de dos consultas de ejemplo en la colecci\'on final. \upshape \textit  {s/d}: el campo de idioma viene vac\'io en la fuente y no se infiere. La primera consulta devolvi\'o cuatro vecinos con $k=5$.}}{10}{}\protected@file@percent }
+\newlabel{tab:vecinos}{{VI}{10}{}{table.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces nDCG ante par\'afrasis por mezcla denso/disperso ($n=9$ en ingl\'es, $n=11$ en espa\~nol).}}{10}{}\protected@file@percent }
+\newlabel{tab:parafrasis}{{VII}{10}{}{table.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-L}}Compuerta de dominio}{10}{}\protected@file@percent }
+\newlabel{sec:compuerta}{{\mbox  {V-L}}{10}{}{subsection.5.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-M}}Ambig\"uedad referencial}{10}{}\protected@file@percent }
+\newlabel{sec:ambiguedad-metodo}{{\mbox  {V-M}}{10}{}{subsection.5.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-N}}Observabilidad}{11}{}\protected@file@percent }
+\newlabel{sec:obs-metodo}{{\mbox  {V-N}}{11}{}{subsection.5.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-O}}Solr como backend alterno}{11}{}\protected@file@percent }
+\newlabel{sec:solr}{{\mbox  {V-O}}{11}{}{subsection.5.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-P}}API e interfaz}{11}{}\protected@file@percent }
+\newlabel{sec:api}{{\mbox  {V-P}}{11}{}{subsection.5.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-Q}}Despliegue}{11}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces Composici\'on del silver standard.}}{11}{}\protected@file@percent }
 \newlabel{tab:silver}{{VIII}{11}{}{table.8}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {IX}{\ignorespaces Acuerdo entre anotadores en la comparaci\'on de modelos (kappa lineal, $n=72$).}}{11}{}\protected@file@percent }
 \newlabel{tab:kappa}{{IX}{11}{}{table.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Protocolo de evaluaci\'on}{11}{}\protected@file@percent }
+\newlabel{sec:evaluacion}{{VI}{11}{}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Silver est\'andar}{11}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Revisi\'on humana}{11}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}M\'etricas}{11}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}Estad\'istica}{11}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-E}}Configuraci\'on de RAGAS}{11}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {VII}Experimentos y resultados}{11}{}\protected@file@percent }
-\newlabel{sec:experimentos}{{VII}{11}{}{section.7}{}}
+\citation{es2023ragas}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}Estad\'istica}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-E}}Configuraci\'on de RAGAS}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Experimentos y resultados}{12}{}\protected@file@percent }
+\newlabel{sec:experimentos}{{VII}{12}{}{section.7}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-A}}Arco experimental}{12}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-B}}Limpieza}{12}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {X}{\ignorespaces Limpieza sobre el piloto (30 preguntas, e5-base, $k=10$).}}{12}{}\protected@file@percent }
-\newlabel{tab:limpieza}{{X}{12}{}{table.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Comparaci\'on de variantes de limpieza sobre el piloto.}}{12}{}\protected@file@percent }
-\newlabel{fig:limpieza}{{8}{12}{}{figure.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-C}}Segmentaci\'on y tama\~no del contexto}{12}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-D}}Codificadores y escala}{12}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {X}{\ignorespaces Limpieza sobre el piloto (30 preguntas, e5-base, $k=10$).}}{13}{}\protected@file@percent }
+\newlabel{tab:limpieza}{{X}{13}{}{table.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Comparaci\'on de variantes de limpieza sobre el piloto.}}{13}{}\protected@file@percent }
+\newlabel{fig:limpieza}{{8}{13}{}{figure.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-C}}Segmentaci\'on y tama\~no del contexto}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-D}}Codificadores y escala}{13}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {XI}{\ignorespaces E1: chunking fijo contra oraciones (30 preguntas).}}{13}{}\protected@file@percent }
 \newlabel{tab:e1}{{XI}{13}{}{table.11}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Segmentaci\'on: fijo contra oraciones.}}{13}{}\protected@file@percent }
 \newlabel{fig:e1}{{9}{13}{}{figure.9}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-E}}Solr como backend de recuperaci\'on}{13}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Tama\~no del contexto: $k=5$ contra $k=10$.}}{13}{}\protected@file@percent }
-\newlabel{fig:e2}{{10}{13}{}{figure.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Recuperaci\'on con e5-base sobre el silver de 38 preguntas respondibles: piloto (1.932 documentos), corpus completo (161.868 documentos) y corpus con reranker sobre el top-50. El piloto y el corpus usan \'indices separados.}}{13}{}\protected@file@percent }
-\newlabel{fig:escala}{{11}{13}{}{figure.11}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-F}}Reordenamiento}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Tama\~no del contexto: $k=5$ contra $k=10$.}}{14}{}\protected@file@percent }
+\newlabel{fig:e2}{{10}{14}{}{figure.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Recuperaci\'on con e5-base sobre el silver de 38 preguntas respondibles: piloto (1.932 documentos), corpus completo (161.868 documentos) y corpus con reranker sobre el top-50. El piloto y el corpus usan \'indices separados.}}{14}{}\protected@file@percent }
+\newlabel{fig:escala}{{11}{14}{}{figure.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-F}}Reordenamiento}{14}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {XII}{\ignorespaces E6: piloto contra corpus completo con e5-base (38 preguntas).}}{14}{}\protected@file@percent }
 \newlabel{tab:e6}{{XII}{14}{}{table.12}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XIII}{\ignorespaces E10: recuperadores sobre el corpus completo (38 preguntas).}}{14}{}\protected@file@percent }
 \newlabel{tab:codificadores}{{XIII}{14}{}{table.13}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-G}}Modelos generativos}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-H}}Inyecci\'on de instrucciones}{14}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {XIV}{\ignorespaces Solr contra los recuperadores de Milvus sobre las 38 preguntas respondibles.}}{14}{}\protected@file@percent }
-\newlabel{tab:solr}{{XIV}{14}{}{table.14}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {XV}{\ignorespaces Reordenamiento con bge-m3 (38 preguntas).}}{14}{}\protected@file@percent }
-\newlabel{tab:rerank}{{XV}{14}{}{table.15}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-I}}Prompts y mejoras rechazadas}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-J}}Compuerta de dominio}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-K}}RAGAS}{14}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {XIV}{\ignorespaces Solr contra los recuperadores de Milvus sobre las 38 preguntas respondibles.}}{15}{}\protected@file@percent }
+\newlabel{tab:solr}{{XIV}{15}{}{table.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XV}{\ignorespaces Reordenamiento con bge-m3 (38 preguntas).}}{15}{}\protected@file@percent }
+\newlabel{tab:rerank}{{XV}{15}{}{table.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-H}}Inyecci\'on de instrucciones}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-I}}Prompts y mejoras rechazadas}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-J}}Compuerta de dominio}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-K}}RAGAS}{15}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {XVI}{\ignorespaces E4: anotaci\'on humana (0 a 3) y conducta autom\'atica.}}{15}{}\protected@file@percent }
 \newlabel{tab:e4}{{XVI}{15}{}{table.16}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XVII}{\ignorespaces E5: instrucciones inyectadas en el texto recuperado.}}{15}{}\protected@file@percent }
@@ -177,16 +181,14 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-L}}Latencia y MTP}{15}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-M}}Observabilidad y evaluaci\'on continua}{15}{}\protected@file@percent }
 \newlabel{sec:observabilidad}{{\mbox  {VII-M}}{15}{}{subsection.7.13}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-N}}GraphRAG ligero}{15}{}\protected@file@percent }
-\newlabel{sec:graphrag}{{\mbox  {VII-N}}{15}{}{subsection.7.14}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-O}}Mejora de la respuesta y evaluaci\'on sem\'antica}{15}{}\protected@file@percent }
-\newlabel{sec:prompt-v3}{{\mbox  {VII-O}}{15}{}{subsection.7.15}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XVIII}{\ignorespaces Fases 6 y 7: variantes probadas sobre 38 preguntas. La referencia es el top-5 con reranker.}}{16}{}\protected@file@percent }
 \newlabel{tab:fases}{{XVIII}{16}{}{table.18}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Traza de una consulta con el prompt v2, antes de la configuraci\'on final: spans de recuperaci\'on, reordenamiento, generaci\'on y anclaje, con los scores de la petici\'on. La traza final a\~nade los spans de traducci\'on y de extracci\'on de listas.}}{16}{}\protected@file@percent }
 \newlabel{fig:trace}{{12}{16}{}{figure.12}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XIX}{\ignorespaces Compuerta de dominio: test interno y conjunto reservado.}}{16}{}\protected@file@percent }
 \newlabel{tab:compuerta}{{XIX}{16}{}{table.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-N}}GraphRAG ligero}{16}{}\protected@file@percent }
+\newlabel{sec:graphrag}{{\mbox  {VII-N}}{16}{}{subsection.7.14}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XX}{\ignorespaces RAGAS: h\'ibrido, denso con $k=10$, denso con $k=5$ y configuraci\'on anterior, con $n$ entre par\'entesis. Las tres primeras usan juez gemma4:e4b y embeddings bge-m3; la \'ultima cambia juez y embeddings, as\'i que su comparaci\'on es observacional.}}{17}{}\protected@file@percent }
 \newlabel{tab:ragas}{{XX}{17}{}{table.20}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Experimento en Langfuse: pregunta, respuesta esperada, scores y respuesta del modelo, con la comparaci\'on por \'item. La captura corresponde a la corrida \texttt  {baseline-final}, con el prompt v2; la tabla compara esa corrida con las posteriores.}}{17}{}\protected@file@percent }
@@ -195,45 +197,50 @@
 \newlabel{tab:mtp}{{XXI}{17}{}{table.21}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XXII}{\ignorespaces Corridas registradas en Langfuse sobre las 43 preguntas del silver. La exactitud incluye las 5 preguntas sin respuesta. Las tres primeras filas son etapas intermedias; la \'ultima es la configuraci\'on desplegada.}}{17}{}\protected@file@percent }
 \newlabel{tab:observabilidad}{{XXII}{17}{}{table.22}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-P}}Ampliaci\'on con documentos aleatorios}{17}{}\protected@file@percent }
-\newlabel{sec:ampliacion}{{\mbox  {VII-P}}{17}{}{subsection.7.16}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XXIII}{\ignorespaces GraphRAG contra la uni\'on h\'ibrida. Exactitud y cobertura de tokens sobre las 43 preguntas del silver y sobre 10 preguntas multi-documento.}}{18}{}\protected@file@percent }
 \newlabel{tab:graphrag}{{XXIII}{18}{}{table.23}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {XXIV}{\ignorespaces Prompt v2, v3 y la configuraci\'on final con traducci\'on y listas, con el mismo recuperador. Exactitud y cobertura de tokens sobre test (24) y el reservado (25).}}{18}{}\protected@file@percent }
-\newlabel{tab:prompt}{{XXIV}{18}{}{table.24}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {XXV}{\ignorespaces RAGAS con prompt v2, v3 y la configuraci\'on final. Test: 19 preguntas respondibles. Reservado: 20. Juez gemma2:2b y embeddings qwen3-embedding:8b.}}{18}{}\protected@file@percent }
-\newlabel{tab:ragas-v3}{{XXV}{18}{}{table.25}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Grafo en Neo4j: un documento y las entidades que menciona.}}{18}{}\protected@file@percent }
 \newlabel{fig:neo4j}{{14}{18}{}{figure.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-O}}Mejora de la respuesta y evaluaci\'on sem\'antica}{18}{}\protected@file@percent }
+\newlabel{sec:prompt-v3}{{\mbox  {VII-O}}{18}{}{subsection.7.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-P}}Ampliaci\'on con documentos aleatorios}{18}{}\protected@file@percent }
+\newlabel{sec:ampliacion}{{\mbox  {VII-P}}{18}{}{subsection.7.16}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-Q}}Experimentos descartados y su coste}{18}{}\protected@file@percent }
 \newlabel{sec:descartados}{{\mbox  {VII-Q}}{18}{}{subsection.7.17}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-R}}Resumen de resultados}{18}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {XXIV}{\ignorespaces Prompt v2, v3 y la configuraci\'on final con traducci\'on y listas, con el mismo recuperador. Exactitud y cobertura de tokens sobre test (24) y el reservado (25).}}{19}{}\protected@file@percent }
+\newlabel{tab:prompt}{{XXIV}{19}{}{table.24}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XXV}{\ignorespaces RAGAS con prompt v2, v3 y la configuraci\'on final. Test: 19 preguntas respondibles. Reservado: 20. Juez gemma2:2b y embeddings qwen3-embedding:8b.}}{19}{}\protected@file@percent }
+\newlabel{tab:ragas-v3}{{XXV}{19}{}{table.25}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XXVI}{\ignorespaces Test curado contra la ampliaci\'on aleatoria con la configuraci\'on final (v3, boost, traducci\'on y listas).}}{19}{}\protected@file@percent }
 \newlabel{tab:ampliacion}{{XXVI}{19}{}{table.26}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {XXVII}{\ignorespaces Experimentos implementados y descartados. Las cifras son de la corrida propia de cada variante; la referencia es la configuraci\'on de su momento.}}{19}{}\protected@file@percent }
 \newlabel{tab:rechazados}{{XXVII}{19}{}{table.27}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {XXVIII}{\ignorespaces Configuraci\'on desplegada sobre los cuatro conjuntos. Exactitud, cobertura de tokens y anclaje son medias por pregunta; el p50 es la mediana de latencia.}}{19}{}\protected@file@percent }
-\newlabel{tab:final}{{XXVIII}{19}{}{table.28}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-S}}Conjunto reservado}{19}{}\protected@file@percent }
-\newlabel{sec:reservado}{{\mbox  {VII-S}}{19}{}{subsection.7.19}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {XXIX}{\ignorespaces Conjunto reservado: 20 preguntas directas y 5 sin respuesta, congelado antes de ejecutar; la compuerta se evalu\'o antes de elegir el h\'ibrido.}}{19}{}\protected@file@percent }
-\newlabel{tab:reservado}{{XXIX}{19}{}{table.29}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-R}}Resumen de resultados}{19}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {XXVIII}{\ignorespaces Configuraci\'on desplegada sobre los cuatro conjuntos. Exactitud, cobertura de tokens y anclaje son medias por pregunta; el p50 es la mediana de latencia.}}{20}{}\protected@file@percent }
+\newlabel{tab:final}{{XXVIII}{20}{}{table.28}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Resumen de resultados: RAGAS por configuraci\'on, pol\'iticas de ambig\"uedad y flujo del conjunto reservado con y sin compuerta.}}{20}{}\protected@file@percent }
 \newlabel{fig:resumen}{{15}{20}{}{figure.15}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {VIII}An\'alisis de errores}{20}{}\protected@file@percent }
-\newlabel{sec:errores}{{VIII}{20}{}{section.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-A}}Errores de recuperaci\'on}{20}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-B}}Errores de generaci\'on}{20}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {XXX}{\ignorespaces Progresi\'on de la configuraci\'on y m\'etrica que la justific\'o.}}{21}{}\protected@file@percent }
-\newlabel{tab:progresion}{{XXX}{21}{}{table.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-S}}Conjunto reservado}{20}{}\protected@file@percent }
+\newlabel{sec:reservado}{{\mbox  {VII-S}}{20}{}{subsection.7.19}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {XXIX}{\ignorespaces Conjunto reservado: 20 preguntas directas y 5 sin respuesta, congelado antes de ejecutar; la compuerta se evalu\'o antes de elegir el h\'ibrido.}}{20}{}\protected@file@percent }
+\newlabel{tab:reservado}{{XXIX}{20}{}{table.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}An\'alisis de errores}{21}{}\protected@file@percent }
+\newlabel{sec:errores}{{VIII}{21}{}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-A}}Errores de recuperaci\'on}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-B}}Errores de generaci\'on}{21}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-C}}Abstenci\'on y compuerta}{21}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-D}}Errores de evaluaci\'on}{21}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-E}}Errores de dise\~no del protocolo}{21}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {IX}Discusi\'on}{21}{}\protected@file@percent }
 \newlabel{sec:discusion}{{IX}{21}{}{section.9}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-A}}Por qu\'e el piloto enga\~na}{21}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-B}}El coste del orden}{21}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-C}}La abstenci\'on barata}{21}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {XXX}{\ignorespaces Progresi\'on de la configuraci\'on y m\'etrica que la justific\'o.}}{22}{}\protected@file@percent }
+\newlabel{tab:progresion}{{XXX}{22}{}{table.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-B}}El coste del orden}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-C}}La abstenci\'on barata}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-D}}La evaluaci\'on}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-E}}Lo que mostr\'o el conjunto reservado}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-F}}Qu\'e se llevar\'ia a producci\'on}{22}{}\protected@file@percent }
 \citation{min2020ambigqa}
 \citation{kuhn2022clam}
 \citation{zhang2024clamber}
@@ -243,28 +250,28 @@
 \citation{in2025diva}
 \citation{li2025condambigqa}
 \citation{tanjim2025survey}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-D}}La evaluaci\'on}{22}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-E}}Lo que mostr\'o el conjunto reservado}{22}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-F}}Qu\'e se llevar\'ia a producci\'on}{22}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {X}Ambig\"uedad y clarificaci\'on}{22}{}\protected@file@percent }
-\newlabel{sec:ambiguedad}{{X}{22}{}{section.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-A}}Estado del arte}{22}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-B}}Dise\~no}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {X}Ambig\"uedad y clarificaci\'on}{23}{}\protected@file@percent }
+\newlabel{sec:ambiguedad}{{X}{23}{}{section.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-A}}Estado del arte}{23}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-B}}Dise\~no}{23}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {XXXI}{\ignorespaces Ambig\"uedad: 6 ambiguas y 6 de control. Baseline y clarificaci\'on: cobertura de tokens; condicional: resultado de la pol\'itica sobre 12. Cobertura entre opciones: 5/6. La h\'ibrida reporta clarificaci\'on interactiva y condicional de una pasada.}}{23}{}\protected@file@percent }
 \newlabel{tab:ambiguedad}{{XXXI}{23}{}{table.31}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-C}}Experimento}{23}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-D}}Resultados}{23}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {XI}Limitaciones}{23}{}\protected@file@percent }
-\newlabel{sec:limitaciones}{{XI}{23}{}{section.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {XI}Limitaciones}{24}{}\protected@file@percent }
+\newlabel{sec:limitaciones}{{XI}{24}{}{section.11}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {XII}Conclusiones y trabajo futuro}{24}{}\protected@file@percent }
 \newlabel{sec:conclusiones}{{XII}{24}{}{section.12}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {XIII}Reproducibilidad}{25}{}\protected@file@percent }
 \newlabel{sec:reproducibilidad}{{XIII}{25}{}{section.13}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-A}}Hardware y software}{25}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {XXXII}{\ignorespaces Modelos, etiqueta y papel en el sistema.}}{25}{}\protected@file@percent }
-\newlabel{tab:modelos}{{XXXII}{25}{}{table.32}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-B}}Modelos}{25}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-C}}Comandos}{25}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {XXXII}{\ignorespaces Modelos, etiqueta y papel en el sistema.}}{26}{}\protected@file@percent }
+\newlabel{tab:modelos}{{XXXII}{26}{}{table.32}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-B}}Modelos}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-C}}Comandos}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-D}}Observabilidad y grafo}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-E}}Artefactos}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-F}}Datos}{26}{}\protected@file@percent }
 \bibstyle{IEEEtran}
 \bibdata{referencias}
 \bibcite{lewis2020rag}{1}
@@ -287,10 +294,6 @@
 \bibcite{malkov2020hnsw}{18}
 \bibcite{liu2024lost}{19}
 \bibcite{niu2024ragtruth}{20}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-D}}Observabilidad y grafo}{26}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-E}}Artefactos}{26}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XIII-F}}Datos}{26}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Referencias}{26}{}\protected@file@percent }
 \bibcite{fastapidocs}{21}
 \bibcite{streamlitdocs}{22}
 \bibcite{min2020ambigqa}{23}
@@ -302,4 +305,5 @@
 \bibcite{in2025diva}{29}
 \bibcite{li2025condambigqa}{30}
 \bibcite{tanjim2025survey}{31}
+\@writefile{toc}{\contentsline {section}{Referencias}{27}{}\protected@file@percent }
 \gdef \@abspage@last{27}
